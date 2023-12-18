@@ -5,5 +5,5 @@ layout: home
 ---
 
 ::h1{.bg-gradient-to-r .from-purple-500 .to-purple-700 .text-transparent .bg-clip-text}
-Binnenkort
+Binnenkort..
 ::
