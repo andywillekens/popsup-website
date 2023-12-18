@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;500;700&family=Poppins:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply h-screen bg-mirage-950;
+  }
+
+  body {
+    @apply font-body antialiased leading-7 text-[18px] text-white;
+
+    #__nuxt {
+      @apply min-h-screen flex flex-row;
+    }
+  }
+
+  :is(h1, h2, h3, h4, h5, h6) {
+    @apply font-head font-bold leading-snug;
+  }
+
+  h1 {
+    @apply text-3xl lg:text-4xl xl:text-7xl;
+  }
+
+  h2 {
+    @apply text-2xl lg:text-3xl xl:text-4xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+
+  h5 {
+    @apply text-xl;
+  }
+
+  h6 {
+    @apply text-lg;
+  }
+
+  a {
+    @apply text-purple-500 font-light underline decoration-dashed decoration-purple-500/80 hover:decoration-solid hover:decoration-purple-500;
+    .bg-mirage-950 &:not([type='button']) {
+      @apply text-white decoration-white/80 hover:text-white hover:decoration-white;
+    }
+  }
+
+  .bg-mirage-950 .formkit-input {
+    @apply bg-white focus:bg-purple-50;
+  }
+
+  [data-invalid='true'] .formkit-input {
+    @apply border-red-400;
+  }
+
+  .formkit-form > .formkit-messages {
+    @apply hidden;
+  }
+
+  table {
+    @apply w-full text-base rounded-lg overflow-hidden shadow-[inset_0_0_0_1px_rgba(246,246,247,1)];
+    thead {
+      @apply bg-mirage-50;
+      tr {
+        @apply border-t-0;
+      }
+      th {
+        @apply text-left font-medium;
+      }
+    }
+    tr {
+      @apply cursor-pointer border-t border-mirage-50 even:bg-mirage-50/20 hover:bg-purple-50/25 transition-all duration-100;
+    }
+    th {
+      @apply py-3 px-5;
+    }
+    td {
+      @apply p-5;
+    }
+  }
+}
+
+@layer utilities {
+  .formkit-form.formkit-horizontal {
+    @apply divide-y;
+    .formkit-label {
+      @apply w-2/12 shrink-0 font-normal text-base mb-0;
+    }
+    .formkit-outer {
+      @apply flex flex-col pt-4 m-0;
+    }
+    .formkit-inner {
+      @apply grow;
+    }
+    .formkit-wrapper {
+      @apply flex items-center gap-4;
+    }
+    button,
+    .formkit-messages,
+    .formkit-help {
+      margin-left: calc(16.666667% + 1rem);
+    }
+    .formkit-wrapper button,
+    .formkit-wrapper .formkit-messages,
+    .formkit-wrapper .formkit-help {
+      margin-left: 0;
+    }
+  }
+}
