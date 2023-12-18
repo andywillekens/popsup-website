@@ -1,42 +1,27 @@
-# Content v2 Minimal Starter
+# New Popsup website
 
-Look at the [Content documentation](https://content.nuxt.com/) to learn more.
+## Main menu
 
-## Setup
+- https://popsup.nl/ \*
+- https://popsup.nl/product \*
+- https://popsup.nl/prijzen \*
+- https://popsup.nl/contact x
 
-Make sure to install the dependencies:
+## Footer menu
 
-```bash
-# yarn
-yarn install
+#### Support
 
-# npm
-npm install
+- https://popsup.nl/contact x
+- https://popsup.nl/faq x
 
-# pnpm
-pnpm install
-```
+### Bedrijf
 
-## Development Server
+- https://popsup.nl/over x
+- https://popsup.nl/blog x
 
-Start the development server on http://localhost:3000
+### Informatie
 
-```bash
-npm run dev
-```
+- https://popsup.nl/privacy x
+- https://popsup.nl/voorwaarden x
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+* = sinlge page (anchor links)

@@ -1,7 +1,7 @@
 ---
-title: "Welkom"
+title: "Voorwaarden"
 description: "Een omschrijving"
 head: true
 ---
 
-# Hello world
+# Voorwaarden

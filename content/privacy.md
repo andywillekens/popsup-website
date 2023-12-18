@@ -1,7 +1,7 @@
 ---
-title: "Welkom"
+title: "Privacyverklaring"
 description: "Een omschrijving"
 head: true
 ---
 
-# Hello world
+# Privacy
