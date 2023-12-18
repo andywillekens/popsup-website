@@ -4,6 +4,6 @@ description: 'Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen e
 layout: home
 ---
 
-::h1{.w-full .flex .items-center}
-Binnenkort..
+::h1{.bg-gradient-to-r .from-purple-500 .to-purple-700 .text-transparent .bg-clip-text}
+Binnenkort
 ::
