@@ -1,6 +1,18 @@
+import { resolve } from 'path'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/content", "@nuxtjs/tailwindcss"],
-  useContentHead: true,
-});
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxthq/studio', 'nuxt-icon'],
+  alias: {
+    '@': resolve(__dirname, './src')
+  },
+  srcDir: 'src',
+  tailwindcss: {
+    cssPath: '~/styles/tailwind.scss'
+  },
+  content: {
+    navigation: {
+      fields: ['navigation']
+    }
+  }
+})
