@@ -55,8 +55,8 @@
   a {
     @apply text-mirage-300 font-normal underline decoration-solid hover:text-white transition-all duration-100;
 
-    header &:not(.logo) {
-      @apply text-white no-underline text-lg bg-purple-500/0 hover:bg-purple-500/20 border-2 border-solid border-purple-500/0 hover:border-purple-500  py-1 px-4 rounded-full;
+    header .mainNav & {
+      @apply text-white no-underline leading-8 text-lg bg-purple-500/0 hover:bg-purple-500/20 border-2 border-solid border-purple-500/0 hover:border-purple-500  py-1 px-4 rounded-full;
     }
     footer &:not(.logo) {
       @apply text-gray-500 no-underline text-md hover:text-gray-300;
@@ -130,6 +130,12 @@
 
   .grid-cols-content > .content-large {
     grid-column: content-large;
+  }
+
+  .masked {
+    mask-image: linear-gradient(transparent, white, white, white, transparent);
+    mask-type: luminance;
+    mask-mode: alpha;
   }
 
   .formkit-form.formkit-horizontal {

@@ -8,7 +8,7 @@
       <p class="text-base text-gray-800">&copy; {{ new Date().getFullYear() }} Webtactic.</p>
       <p class="text-base text-gray-800">
         PopsUp is met
-        <Icon name="ph:heart-duotone" class="text-purple-500 animate-pulse" size="24" />
+        <Icon name="ph:heart-duotone" class="text-purple-500 animate-heart-beat" size="24" />
         ontwikkeld in Nederland.
       </p>
     </section>

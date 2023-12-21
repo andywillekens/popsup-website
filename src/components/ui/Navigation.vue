@@ -53,10 +53,22 @@
         webapplicatie.
       </p>
     </div>
-    <div class="flex gap-4" v-if="type === 'main'">
-      <template v-for="(item, itemIndex) in mainMenuItems">
-        <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
-      </template>
+    <div v-if="type === 'main'" class="flex">
+      <div class="mainNav flex gap-4 pr-6">
+        <template v-for="(item, itemIndex) in mainMenuItems">
+          <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
+        </template>
+      </div>
+      <div class="appNav flex items-center gap-6 border-l border-gray-950 pl-8">
+        <NuxtLink class="text-gray-500 no-underline" to="https://app.popsup.nl/login"
+          >Inloggen</NuxtLink
+        >
+        <UiCoreButton
+          to="https://app.popsup.nl/create-account"
+          label="Start proefperiode"
+          tag="nuxt-link"
+          theme="default" />
+      </div>
     </div>
     <div class="flex gap-10 lg:gap-20" v-if="type === 'footer'">
       <template v-for="(category, catIndex) in categories">
