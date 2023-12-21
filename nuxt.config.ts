@@ -11,6 +11,9 @@ export default defineNuxtConfig({
     cssPath: '~/styles/tailwind.scss'
   },
   content: {
+    markdown: {
+      anchorLinks: false
+    },
     navigation: {
       fields: ['navigation']
     }

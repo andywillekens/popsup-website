@@ -116,20 +116,39 @@
     @apply grid;
   }
 
-  .grid-cols-content > * {
+  .grid-cols-content > *,
+  div[data-content-id] > * {
     grid-column: content;
   }
 
-  .grid-cols-content > .full-width {
+  .grid-cols-content > .full-width,
+  div[data-content-id] > .full-width {
     grid-column: full-width;
   }
 
-  .grid-cols-content > .breakout {
+  .grid-cols-content > .breakout,
+  div[data-content-id] > .breakout {
     grid-column: breakout;
   }
 
-  .grid-cols-content > .content-large {
+  .grid-cols-content > .content-large,
+  div[data-content-id] > .content-large {
     grid-column: content-large;
+  }
+
+  div[data-content-id] {
+    @apply grid;
+    grid-template-columns:
+      [full-width-start] minmax(2rem, 1fr) [breakout-start] minmax(0, 100px) [content-large-start] minmax(
+        0px,
+        250px
+      )
+      [content-start] min(100% - ((2rem) * 2), 780px) [content-end] minmax(0px, 250px) [content-large-end] minmax(
+        0,
+        100px
+      )
+      [breakout-end] minmax(2rem, 1fr) [full-width-end];
+    grid-column: full-width;
   }
 
   .masked {

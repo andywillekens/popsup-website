@@ -35,8 +35,6 @@
   const themeClasses = computed(() => {
     if (props.theme === 'default') {
       return 'px-4 py-2 !text-white bg-purple-500 hover:bg-purple-600 !border-0'
-    } else if (props.theme === 'cta') {
-      return 'px-4 py-2 !text-green-900 bg-green-300 hover:bg-green-400 shadow-lg shadow-green-300/20'
     } else if (props.theme === 'cta-xl') {
       return 'px-6 py-4 text-lg !font-bold !text-black/90 bg-green-500 hover:bg-green-500/90 '
     } else if (props.theme === 'danger') {
