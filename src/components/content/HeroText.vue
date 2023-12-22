@@ -40,7 +40,7 @@
         {{ splitPayoff[1] }}
       </p>
       <!-- H1 -->
-      <h1 class="text-base leading-relaxed sm:leading-normal sm:text-md font-normal text-gray-500">
+      <h1 class="text-base leading-relaxed sm:leading-normal sm:text-md font-normal text-gray-400">
         {{ title }}
       </h1>
       <!-- CTA -->
