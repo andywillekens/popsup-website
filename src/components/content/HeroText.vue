@@ -18,6 +18,16 @@
 
   const splitPayoff = props.payoff.split('X')
   const wordArray = props.words.split(',')
+
+  const imageArr = [
+    { url: '/assets/images/popsup_dashboard_1.jpg', title: 'Het PopsUp dashboard' },
+    { url: '/assets/images/popsup_dashboard_2.jpg', title: 'Jouw pop-up overzichtspagina' },
+    { url: '/assets/images/popsup_dashboard_3.jpg', title: 'De geintegreerde code editor' },
+    {
+      url: '/assets/images/popsup_dashboard_4.jpg',
+      title: 'Uiteenlopende instellingen beschikbaar'
+    }
+  ]
 </script>
 <template>
   <section
@@ -51,7 +61,7 @@
         theme="cta-xl" />
     </section>
     <section class="w-[680px] flex-shrink-0 translate-x-10 hidden md:block 2xl:translate-x-0">
-      <UiImageViewer />
+      <UiImageViewer :images="imageArr" />
     </section>
   </section>
 </template>

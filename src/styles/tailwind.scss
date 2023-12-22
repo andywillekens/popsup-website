@@ -55,8 +55,12 @@
   a {
     @apply text-mirage-300 font-normal underline decoration-solid hover:text-white transition-all duration-100;
 
+    .mobileNav & {
+      @apply text-xl;
+    }
+
     header & {
-      @apply text-gray-400 no-underline hover:text-purple-300;
+      @apply text-gray-400 no-underline hover:text-purple-400;
     }
 
     footer & {

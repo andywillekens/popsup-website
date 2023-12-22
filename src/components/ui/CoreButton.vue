@@ -36,15 +36,15 @@
     if (props.theme === 'default') {
       return 'px-4 py-2 !text-white bg-purple-500 hover:bg-purple-600 !border-0'
     } else if (props.theme === 'cta-xl') {
-      return 'px-6 py-4 text-lg !font-bold !text-black/90 bg-green-500 hover:bg-green-500/90 '
+      return 'px-6 py-3 text-lg !font-bold !text-green-400 bg-green-500/40 hover:bg-green-500/90 hover:!text-green-950'
     } else if (props.theme === 'danger') {
       return 'px-4 py-2 text-white bg-red-500 hover:bg-red-600'
     } else if (props.theme === 'ghost') {
       return 'px-2 py-1 text-gray hover:text-white bg-transparent hover:bg-mirage-900'
     } else if (props.theme === 'alt') {
-      return 'px-4 py-2 text-black bg-white hover:bg-gray-50 hover:text-black focus:z-10'
-    } else if (props.theme === 'alt-border') {
-      return 'px-4 py-2 border-2 border-purple-500 border-gray-200 text-gray-400 bg-purple-500/20 hover:bg-purple-500 hover:text-white focus:z-10'
+      return 'px-4 py-2 bg-purple-500/30 text-purple-300 hover:bg-purple-500 hover:text-white focus:z-10'
+    } else if (props.theme === 'alt-grey') {
+      return 'px-4 py-2 bg-gray-600/10 text-gray-400 bg-grey-500/20 hover:bg-white/90 hover:text-black focus:z-10'
     }
   })
 
@@ -77,7 +77,7 @@
     :is="component"
     v-bind="buttonProps"
     :class="[
-      `group text-md no-underline text-center inline-flex tracking-tight items-center font-medium rounded-lg transition-all duration-150 outline-0 outline-none cursor-pointer gap-2`,
+      `group text-md no-underline text-center flex tracking-tight items-center justify-center font-medium rounded-lg transition-all duration-150 outline-0 outline-none cursor-pointer gap-2`,
       themeClasses,
       loadingClasses
     ]">

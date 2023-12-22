@@ -2,6 +2,9 @@
   defineProps({
     items: {
       type: Array
+    },
+    show: {
+      type: Boolean
     }
   })
 
@@ -13,7 +16,12 @@
 </script>
 <template>
   <section
-    class="absolute z-50 top-0 left-0 w-full flex gap-12 flex-col border-b border-gray-900 md:hidden bg-mirage-960 pt-5 pb-8 px-8">
+    :class="
+      show
+        ? 'translate-y-0 opacity-100 pointer-events-auto'
+        : '-translate-y-4 opacity-0 pointer-events-none'
+    "
+    class="absolute z-50 top-0 right-0 w-[350px] flex gap-12 flex-col md:hidden bg-mirage-960 pt-5 pb-8 px-8 transition-all duration-300">
     <div class="flex justify-between">
       <!-- Logo -->
       <NuxtLink class="logo" to="/"><UiLogo /></NuxtLink>
@@ -28,11 +36,19 @@
         theme="ghost" />
     </div>
     <!-- Menu -->
-    <div class="flex flex-col gap-6">
+    <div class="mobileNav flex flex-col gap-8">
       <template v-for="(item, itemIndex) in items">
         <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
       </template>
       <UiNavigationApplication />
     </div>
   </section>
+  <!-- Overlay -->
+  <div
+    :class="
+      show
+        ? 'opacity-100 pointer-events-auto md:opacity-0 md:pointer-events-none'
+        : 'opacity-0 pointer-events-none'
+    "
+    class="fixed z-40 top-0 right-0 bottom-0 left-0 bg-black/75 transition-all duration-150"></div>
 </template>

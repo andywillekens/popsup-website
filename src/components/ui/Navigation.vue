@@ -78,12 +78,14 @@
       icon-prefix="ph:list-duotone"
       icon-color="white"
       tag="button"
-      theme="alt-border" />
+      icon-size="32"
+      theme="ghost" />
     <!-- Mobile menu -->
     <UiNavigationMobile
       @closeMenu="showMobileMenu = false"
-      v-if="type === 'main' && showMobileMenu"
-      :items="mainMenuItems" />
+      v-if="type === 'main'"
+      :items="mainMenuItems"
+      :show="showMobileMenu" />
     <!-- Footer menu -->
     <div class="flex gap-10 lg:gap-20" v-if="type === 'footer'">
       <template v-for="(category, catIndex) in categories">
