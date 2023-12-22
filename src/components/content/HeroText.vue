@@ -21,7 +21,7 @@
 </script>
 <template>
   <section
-    class="flex breakout justify-start 2xl:justify-around items-center gap-10 mt-16 lg:mt-32">
+    class="flex breakout justify-start 2xl:justify-around items-center sm:gap-10 mt-8 sm:mt-16 lg:mt-32">
     <section class="w-full max-w-2xl flex flex-col gap-8 items-start flex-shrink-0">
       <!-- Payoff -->
       <p
@@ -40,7 +40,9 @@
         {{ splitPayoff[1] }}
       </p>
       <!-- H1 -->
-      <h1 class="text-sm sm:text-md font-normal text-gray-500">{{ title }}</h1>
+      <h1 class="text-base leading-relaxed sm:leading-normal sm:text-md font-normal text-gray-500">
+        {{ title }}
+      </h1>
       <!-- CTA -->
       <UiCoreButton
         to="https://app.popsup.nl/create-account"
