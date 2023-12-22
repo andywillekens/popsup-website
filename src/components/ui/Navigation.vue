@@ -47,9 +47,11 @@
 <template>
   <nav
     :class="
-      type === 'main' ? 'items-center flex-row ' : 'items-start flex-col lg:gap-0 lg:flex-row '
+      type === 'main'
+        ? 'items-center flex-row '
+        : 'items-start flex-col gap-8 lg:gap-0 lg:flex-row '
     "
-    class="flex gap-8 justify-between">
+    class="flex justify-between">
     <!-- Logo and text container -->
     <div class="flex flex-col gap-4">
       <!-- Logo -->
