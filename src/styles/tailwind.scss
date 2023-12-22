@@ -55,11 +55,12 @@
   a {
     @apply text-mirage-300 font-normal underline decoration-solid hover:text-white transition-all duration-100;
 
-    header .mainNav & {
-      @apply text-white no-underline leading-8 text-lg bg-purple-500/0 hover:bg-purple-500/20 border-2 border-solid border-purple-500/0 hover:border-purple-500  py-1 px-4 rounded-full;
+    header & {
+      @apply text-gray-400 no-underline hover:text-purple-300;
     }
-    footer &:not(.logo) {
-      @apply text-gray-500 no-underline text-md hover:text-gray-300;
+
+    footer & {
+      @apply text-gray-500 no-underline hover:text-gray-300;
     }
 
     &.router-link-active {
@@ -117,26 +118,26 @@
   }
 
   .grid-cols-content > *,
-  div[data-content-id] > * {
+  .grid-cols-content > div:not(.breakout) > * {
     grid-column: content;
   }
 
   .grid-cols-content > .full-width,
-  div[data-content-id] > .full-width {
+  .grid-cols-content > div:not(.breakout) > .full-width {
     grid-column: full-width;
   }
 
   .grid-cols-content > .breakout,
-  div[data-content-id] > .breakout {
+  .grid-cols-content > div:not(.breakout) > .breakout {
     grid-column: breakout;
   }
 
   .grid-cols-content > .content-large,
-  div[data-content-id] > .content-large {
+  .grid-cols-content > div:not(.breakout) > .content-large {
     grid-column: content-large;
   }
 
-  div[data-content-id] {
+  .grid-cols-content > div:not(.breakout) {
     @apply grid;
     grid-template-columns:
       [full-width-start] minmax(2rem, 1fr) [breakout-start] minmax(0, 100px) [content-large-start] minmax(

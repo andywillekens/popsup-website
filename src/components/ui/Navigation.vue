@@ -22,6 +22,8 @@
     }
   })
 
+  const showMobileMenu = ref(false)
+
   const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 
   const mainMenuItems = navigation.value
@@ -44,32 +46,44 @@
 </script>
 <template>
   <nav
-    :class="type === 'main' ? 'items-center' : 'items-start'"
-    class="flex flex-col gap-8 lg:gap-0 lg:flex-row justify-between">
+    :class="
+      type === 'main' ? 'items-center flex-row ' : 'items-start flex-col lg:gap-0 lg:flex-row '
+    "
+    class="flex gap-8 justify-between">
+    <!-- Logo and text container -->
     <div class="flex flex-col gap-4">
+      <!-- Logo -->
       <NuxtLink class="logo" to="/"><UiLogo /></NuxtLink>
+      <!-- Subtext -->
       <p v-if="type === 'footer'" class="w-full lg:max-w-md">
         Bouw makkelijk en snel professionele pop-ups en integreer deze in je website, webshop of
         webapplicatie.
       </p>
     </div>
-    <div v-if="type === 'main'" class="flex">
-      <div class="mainNav flex gap-4 pr-6">
+    <div v-if="type === 'main'" class="hidden md:flex">
+      <!-- Website navigation -->
+      <div class="mainNav flex items-center md:gap-6 lg:gap-12 pr-4 lg:pr-6">
         <template v-for="(item, itemIndex) in mainMenuItems">
           <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
         </template>
       </div>
-      <div class="appNav flex items-center gap-6 border-l border-gray-950 pl-8">
-        <NuxtLink class="text-gray-500 no-underline" to="https://app.popsup.nl/login"
-          >Inloggen</NuxtLink
-        >
-        <UiCoreButton
-          to="https://app.popsup.nl/create-account"
-          label="Start proefperiode"
-          tag="nuxt-link"
-          theme="default" />
-      </div>
+      <!-- Application Navigation -->
+      <UiNavigationApplication />
     </div>
+    <!-- Menu button -->
+    <UiCoreButton
+      @click="showMobileMenu = !showMobileMenu"
+      class="md:hidden"
+      icon-prefix="ph:list-duotone"
+      icon-color="white"
+      tag="button"
+      theme="alt-border" />
+    <!-- Mobile menu -->
+    <UiNavigationMobile
+      @closeMenu="showMobileMenu = false"
+      v-if="type === 'main' && showMobileMenu"
+      :items="mainMenuItems" />
+    <!-- Footer menu -->
     <div class="flex gap-10 lg:gap-20" v-if="type === 'footer'">
       <template v-for="(category, catIndex) in categories">
         <div class="flex flex-col gap-2">

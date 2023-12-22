@@ -20,7 +20,7 @@
   const wordArray = props.words.split(',')
 </script>
 <template>
-  <section class="flex breakout justify-around items-center gap-10 my-32">
+  <section class="flex breakout justify-around items-center gap-10 mt-32">
     <section class="w-full max-w-2xl flex flex-col gap-8 items-start">
       <!-- Payoff -->
       <p class="text-7xl font-bold leading-[5rem]">

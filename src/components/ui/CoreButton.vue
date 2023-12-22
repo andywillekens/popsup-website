@@ -44,7 +44,7 @@
     } else if (props.theme === 'alt') {
       return 'px-4 py-2 text-black bg-white hover:bg-gray-50 hover:text-black focus:z-10'
     } else if (props.theme === 'alt-border') {
-      return 'px-4 py-2 border border-gray-200 text-black bg-white hover:bg-gray-50 hover:text-black focus:z-10'
+      return 'px-4 py-2 border-2 border-purple-500 border-gray-200 text-gray-400 bg-purple-500/20 hover:bg-purple-500 hover:text-white focus:z-10'
     }
   })
 
