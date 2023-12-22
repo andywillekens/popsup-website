@@ -152,10 +152,6 @@
     grid-column: full-width;
   }
 
-  .gradientText {
-    -webkit-box-decoration-break: clone;
-  }
-
   .masked {
     mask-image: linear-gradient(transparent, white, white, white, transparent);
     mask-type: luminance;

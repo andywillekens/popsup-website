@@ -29,10 +29,10 @@
         {{ splitPayoff[0] }}
         <!-- Wordflipper -->
         <span
-          class="gradientText inline-flex flex-col w-auto h-[2.5rem] sm:h-[4rem] md:h-[5rem] bg-gradient-to-tr from-purple-200 to-purple-600 text-transparent bg-clip-text">
+          class="inline-flex flex-col w-auto h-[2.5rem] sm:h-[4rem] md:h-[5rem] overflow-hidden">
           <template v-for="word in wordArray">
             <span
-              class="inline flex-grow-0 justify-start animate-word-slider text-left w-full h-[2.5rem] sm:h-[4rem] md:h-[5rem]"
+              class="text-purple-400 drop-shadow-md inline flex-grow-0 justify-start animate-word-slider text-left w-full h-[2.5rem] sm:h-[4rem] md:h-[5rem]"
               >{{ word }}</span
             >
           </template> </span
