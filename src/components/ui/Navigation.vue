@@ -72,6 +72,7 @@
     </div>
     <!-- Menu button -->
     <UiCoreButton
+      v-if="type === 'main'"
       @click="showMobileMenu = !showMobileMenu"
       class="md:hidden"
       icon-prefix="ph:list-duotone"
