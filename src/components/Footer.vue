@@ -1,5 +1,5 @@
 <template>
-  <footer class="full-width grid-cols-content bg-black/60 self-end py-16">
+  <footer class="full-width grid-cols-content bg-mirage-960 self-end py-16">
     <section class="content-large grid border-b border-solid pb-8 border-gray-950">
       <UiNavigation type="footer" />
     </section>

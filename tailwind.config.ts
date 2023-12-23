@@ -194,7 +194,7 @@ export default {
         'pulsate-slow-green': 'pulsateGreen 2s infinite',
         'pulsate-slow-purple': 'pulsatePurple 2s infinite',
         'heart-beat': 'heartBeat 1.2s ease-in-out infinite',
-        'word-slider': 'slidewords 6s cubic-bezier(.16,1,.3,1) infinite'
+        'word-slider': 'slidewords 8s cubic-bezier(.16,1,.3,1) infinite'
       }
     }
   }

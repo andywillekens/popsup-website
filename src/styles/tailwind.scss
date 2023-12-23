@@ -7,7 +7,7 @@
 @layer base {
   html,
   body {
-    @apply h-screen bg-mirage-950;
+    @apply h-screen bg-fixed bg-gradient-to-b from-mirage-950 to-mirage-900;
   }
 
   body {

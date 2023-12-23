@@ -29,12 +29,12 @@
       <Icon
         @click="cycleImages('-')"
         name="ph:arrow-circle-left-duotone"
-        class="text-gray-800 hover:text-purple-500 cursor-pointer"
+        class="duration-150 transition-all text-gray-800 hover:text-purple-500 hover:scale-105 cursor-pointer"
         size="30" />
       <Icon
         @click="cycleImages('+')"
         name="ph:arrow-circle-right-duotone"
-        class="text-gray-800 hover:text-purple-500 cursor-pointer"
+        class="duration-150 transition-all text-gray-800 hover:text-purple-500 hover:scale-105 cursor-pointer"
         size="30" />
     </div>
     <div
@@ -43,7 +43,7 @@
     </div>
   </div>
   <div
-    class="shadow-lg border border-t-0 border-white/10 rounded-xl rounded-t-none overflow-hidden grid relative">
+    class="shadow-lg border border-t-0 border-white/10 bg-mirage-960 rounded-xl rounded-t-none overflow-hidden grid relative">
     <template v-for="(image, imageIdx) in images">
       <NuxtImg
         :class="
