@@ -22,31 +22,34 @@ Wat heeft PopsUp te bieden?
 Overzichtelijk dashboard met statistieken.
 
 #text
-Binnen het dashboard heb je toegang tot de belangrijkste meetgegevens, zoals het aantal inschrijvers, vertoningen, conversies en andere cruciale prestatie-indicatoren.
+Je hebt toegang tot de belangrijkste meetgegevens, zoals het aantal inschrijvers, vertoningen, conversies en andere cruciale prestatie-indicatoren.
 ::
 
 ::visual-text{image="popsup_overview_zoomed.png" :push=true}
 #title
-Beheer al jouw pop-up formulieren vanuit één handig overzicht.
+Beheer al je campagnes in één overzicht.
 
 #text
-PopsUp biedt een helder overzicht van al jouw pop-up formulieren, waardoor je snel en eenvoudig kunt wisselen tussen verschillende campagnes.
-
-#text
-Daarnaast geeft het overzicht je de mogelijkheid om snel de prestaties van individuele pop-ups te bekijken en te vergelijken.
+Bekijk en vergelijk direct de prestaties van jouw pop-up campagnes vanuit dit overzicht, hier zijn de belangrijkste statistieken direct inzichtelijk.
 ::
 
-::visual-text{image="popsup_dashboard_3.jpg" :pull=true}
+::visual-text{image="popsup_editor_zoomed.png" :pull=true}
 #title
-Liever zelf de touwtjes in handen?
+Je pop-up bij de bron bewerken?
 
 #text
-Met de robuuste code-editor kun je alle aspecten van je pop-up wijzigen zoals de HTML, styling en Javascript. Bevalt de standaard template niet? Dan pas je hem gemakkelijk aan.
+Binnen de geïntegreerde code-editor kun je de HTML, style en Javascript van jouw pop-up volledig aanpassen.
 
 #text
-Liever niet zelf bezig met de code van je pop-up? PopsUp biedt ook services aan om pop-up formulieren voor je te bouwen.\
-\
-[Vraag een offerte aan](mailto:info@popsup.nl)
+Liever niet bezig met de code van je pop-up? Wij bieden ook services aan om pop-up formulieren voor je te bouwen. [Meer informatie](mailto:info@popsup.nl)
+::
+
+::visual-text{image="popsup_inclusion_zoomed.png" :push=true}
+#title
+In en uitsluiten, makkelijk ingesteld.
+
+#text
+De pop-up op een specifieke URL wel of niet laten zien? Voeg zoveel URL's toe als je wil om je pop-up formulier in of uit te sluiten
 ::
 
 ::big-cta
