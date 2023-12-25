@@ -36,7 +36,7 @@
     if (props.theme === 'default') {
       return 'px-4 py-2 !text-white bg-purple-500 hover:bg-purple-600 !border-0'
     } else if (props.theme === 'cta-xl') {
-      return 'px-6 py-3 text-lg !font-bold !text-green-400 bg-green-500/40 hover:bg-green-500/90 hover:!text-green-950'
+      return 'px-6 py-3 text-lg !font-bold bg-green-500/90 text-green-950 hover:bg-purple-500'
     } else if (props.theme === 'danger') {
       return 'px-4 py-2 text-white bg-red-500 hover:bg-red-600'
     } else if (props.theme === 'ghost') {

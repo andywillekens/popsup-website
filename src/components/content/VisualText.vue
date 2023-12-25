@@ -1,15 +1,5 @@
 <script setup lang="ts">
-  const props = defineProps({
-    title: {
-      type: String,
-      required: true,
-      default: ''
-    },
-    text: {
-      type: Array,
-      required: false,
-      default: ''
-    },
+  defineProps({
     image: {
       type: String,
       requied: true,
@@ -27,18 +17,25 @@
 </script>
 <template>
   <section
-    :class="pull ? '-translate-x-48' : push ? 'translate-x-48' : 'translate-x-0'"
-    class="inline-flex content justify-start 2xl:justify-around items-center sm:gap-10 mt-8 sm:mt-16 lg:mt-32">
-    <section class="flex flex-col gap-6 bg-mirage-960/95 rounded-2xl p-6">
-      <h4 class="">{{ title }}</h4>
-      <div class="flex flex-row gap-6">
-        <div class="shrink-0 w-1/2">
-          <template v-for="paragraph in text">
-            <p class="text-lg text-gray-400 mb-4">{{ paragraph }}</p>
-          </template>
+    :class="
+      pull
+        ? 'translate-x-0 lg:-translate-x-5 xl:-translate-x-20'
+        : push
+        ? 'translate-x-0 lg:translate-x-5 xl:translate-x-10'
+        : 'translate-x-0'
+    "
+    class="flex content-large justify-center 2xl:justify-around items-center sm:gap-10 mt-8 sm:mt-16 lg:mt-32">
+    <section
+      class="flex flex-col max-w-4xl gap-6 py-6 sm:p-6 relative before:w-full sm:before:w-11/12 before:h-full before:absolute before:top-0 before:left-0 before:translate-x-10 sm:before:translate-x-0 before:z-[-1] before:bg-gradient-to-r before:from-transparent before:to-mirage-960/60 sm:before:rounded-2xl">
+      <h4 class="pr-0 sm:pr-20">
+        <ContentSlot :use="$slots.title" unwrap="p" />
+      </h4>
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="visualText shrink-0 w-full md:w-1/2 pr-0 sm:pr-20 md:pr-0">
+          <ContentSlot :use="$slots.text" />
         </div>
         <NuxtImg
-          class="w-auto h-72 aspect-video rounded-lg shadow-lg"
+          class="shrink-0 w-full md:w-1/2 h-full rounded-lg shadow-lg"
           :src="`/assets/images/${image}`" />
       </div>
     </section>

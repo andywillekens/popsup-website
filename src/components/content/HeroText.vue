@@ -31,18 +31,18 @@
 </script>
 <template>
   <section
-    class="flex breakout justify-start 2xl:justify-around items-center sm:gap-10 mt-8 sm:mt-16 lg:mt-32">
-    <section class="w-full max-w-2xl flex flex-col gap-8 items-start flex-shrink-0">
+    class="flex flex-col md:flex-row breakout justify-start 2xl:justify-around items-center gap-10 mt-8 sm:mt-16 lg:mt-32">
+    <section class="w-full md:max-w-lg lg:max-w-2xl flex flex-col gap-8 items-start flex-shrink-0">
       <!-- Payoff -->
       <p
-        class="text-2xl sm:text-4xl md:text-7xl font-bold leading-[2.5rem] sm:leading-[4rem] md:leading-[5rem]">
+        class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-[2.5rem] sm:leading-[4rem] md:leading-[4.5rem] lg:leading-[5rem]">
         {{ splitPayoff[0] }}
         <!-- Wordflipper -->
         <span
-          class="inline-flex flex-col w-auto h-[2.5rem] sm:h-[4rem] md:h-[5rem] overflow-hidden">
+          class="inline-flex flex-col w-auto h-[2.5rem] sm:h-[4rem] md:h-[4.5rem] lg:h-[5rem] overflow-hidden">
           <template v-for="word in wordArray">
             <span
-              class="text-purple-400 drop-shadow-md inline flex-grow-0 justify-start animate-word-slider text-left w-full h-[2.5rem] sm:h-[4rem] md:h-[5rem]"
+              class="text-purple-400 drop-shadow-md inline flex-grow-0 justify-start animate-word-slider text-left w-full h-[2.5rem] sm:h-[4rem] md:h-[4.5rem] lg:h-[5rem]"
               >{{ word }}</span
             >
           </template> </span
@@ -51,7 +51,7 @@
       </p>
       <!-- H1 -->
       <h1 class="text-base leading-relaxed sm:leading-normal sm:text-md font-normal text-gray-400">
-        {{ title }}
+        <ContentSlot :use="$slots.default" unwrap="p" />
       </h1>
       <!-- CTA -->
       <UiCoreButton
@@ -60,7 +60,7 @@
         tag="nuxt-link"
         theme="cta-xl" />
     </section>
-    <section class="w-[680px] flex-shrink-0 translate-x-10 hidden md:block 2xl:translate-x-0">
+    <section class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0">
       <UiImageViewer :images="imageArr" />
     </section>
   </section>

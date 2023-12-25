@@ -11,18 +11,13 @@
       type: String,
       required: true,
       default: ''
-    },
-    title: {
-      type: String,
-      required: true,
-      default: ''
     }
   })
 </script>
 <template>
   <section
     class="flex flex-col lg:flex-row full-width justify-center items-center gap-10 xl:gap-20 mt-8 sm:mt-16 lg:mt-32 px-4 py-16 bg-mirage-960/95">
-    <p>{{ title }}</p>
+    <ContentSlot :use="$slots.default" />
     <div class="grid grid-cols-2 sm:flex sm:flex-row gap-14 xl:gap-20">
       <template v-for="integration in integrations">
         <NuxtLink

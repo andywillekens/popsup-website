@@ -7,7 +7,7 @@
 @layer base {
   html,
   body {
-    @apply h-screen bg-fixed bg-gradient-to-b from-mirage-950 to-mirage-900;
+    @apply h-screen bg-fixed bg-mirage-950 bg-gradient-to-b from-mirage-950 to-mirage-900;
   }
 
   body {
@@ -35,7 +35,7 @@
   }
 
   h4 {
-    @apply text-2xl;
+    @apply text-xl sm:text-2xl;
   }
 
   h5 {
@@ -156,7 +156,17 @@
     grid-column: full-width;
   }
 
+  .visualText p {
+    @apply text-lg text-gray-400 mb-4;
+  }
+
   .masked {
+    mask-image: linear-gradient(transparent, white, white, white, transparent);
+    mask-type: luminance;
+    mask-mode: alpha;
+  }
+
+  .fader {
     mask-image: linear-gradient(transparent, white, white, white, transparent);
     mask-type: luminance;
     mask-mode: alpha;
