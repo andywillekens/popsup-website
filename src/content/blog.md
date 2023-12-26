@@ -12,4 +12,7 @@ navigation:
 
 # Blog
 
-Hier komen de blogberichten
+Een kijkje achter de schermen tijdens de ontwikkelingen van PopsUp.
+
+::blog-overview
+::

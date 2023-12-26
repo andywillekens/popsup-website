@@ -35,7 +35,7 @@
     <section class="w-full md:max-w-lg lg:max-w-2xl flex flex-col gap-8 items-start flex-shrink-0">
       <!-- Payoff -->
       <p
-        class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-[2.5rem] sm:leading-[4rem] md:leading-[4.5rem] lg:leading-[5rem]">
+        class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-[2.5rem] sm:leading-[4rem] md:leading-[4.5rem] lg:leading-[5rem] text-white">
         {{ splitPayoff[0] }}
         <!-- Wordflipper -->
         <span
