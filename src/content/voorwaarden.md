@@ -10,4 +10,4 @@ navigation:
 
 # Voorwaarden
 
-Quality content
+Hier komen de algemene voorwaarden

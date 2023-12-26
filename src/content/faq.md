@@ -10,4 +10,4 @@ navigation:
 
 # FAQ
 
-Quality content
+Hier komen veelgestelde vragen

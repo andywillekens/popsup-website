@@ -20,12 +20,12 @@
   const wordArray = props.words.split(',')
 
   const imageArr = [
-    { url: '/assets/images/popsup_dashboard_1.jpg', title: 'Het PopsUp dashboard' },
-    { url: '/assets/images/popsup_dashboard_2.jpg', title: 'Jouw pop-up overzichtspagina' },
-    { url: '/assets/images/popsup_dashboard_3.jpg', title: 'De geintegreerde code editor' },
+    { url: '/assets/images/popsup_dashboard_1.jpg', title: 'Je statistieken op een plek' },
+    { url: '/assets/images/popsup_dashboard_2.jpg', title: 'Alle campagnes in een overzicht' },
+    { url: '/assets/images/popsup_dashboard_3.jpg', title: 'Met geïntegreerde code-editor' },
     {
       url: '/assets/images/popsup_dashboard_4.jpg',
-      title: 'Uiteenlopende instellingen beschikbaar'
+      title: 'Heel veel handige instellingen'
     }
   ]
 </script>

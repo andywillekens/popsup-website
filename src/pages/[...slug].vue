@@ -9,7 +9,10 @@
       </NuxtLayout>
     </template>
     <!-- 404 -->
-    <template #not-found> <h1>Document not found</h1> </template>
+    <template #not-found>
+      <h1>Oeps! Er ging iets niet goed..</h1>
+      <p>Er is iets misgegaan bij het laden van de pagina of de pagina is verplaatst.</p>
+    </template>
   </ContentDoc>
   <!-- Footer -->
   <Footer />

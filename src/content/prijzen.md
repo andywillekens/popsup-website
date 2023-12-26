@@ -5,5 +5,9 @@ layout: page
 navigation:
   title: 'Prijzen'
   location: main
-  order: 2
+  order: 1
 ---
+
+# Prijzen
+
+Hier komt informatie over de prijzen.

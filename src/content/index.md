@@ -33,23 +33,23 @@ Beheer al je campagnes in één overzicht.
 Bekijk en vergelijk direct de prestaties van jouw pop-up campagnes vanuit dit overzicht, hier zijn de belangrijkste statistieken direct inzichtelijk.
 ::
 
-::visual-text{image="popsup_editor_zoomed.png" :pull=true}
+::visual-text{image="popsup_inclusion_zoomed.png" :pull=true}
 #title
-Je pop-up bij de bron bewerken?
+In en uitsluiten, makkelijk ingesteld.
+
+#text
+Je campagne wil je niet op iedere URL tonen, via de instellingen kun je gemakkelijk de in/uit te sluiten URL's toevoegen.
+::
+
+::visual-text{image="popsup_editor_zoomed.png" :push=true}
+#title
+Complete code-vrijheid binnen je pop-up.
 
 #text
 Binnen de geïntegreerde code-editor kun je de HTML, style en Javascript van jouw pop-up volledig aanpassen.
 
 #text
-Liever niet bezig met de code van je pop-up? Wij bieden ook services aan om pop-up formulieren voor je te bouwen. [Meer informatie](mailto:info@popsup.nl)
-::
-
-::visual-text{image="popsup_inclusion_zoomed.png" :push=true}
-#title
-In en uitsluiten, makkelijk ingesteld.
-
-#text
-De pop-up op een specifieke URL wel of niet laten zien? Voeg zoveel URL's toe als je wil om je pop-up formulier in of uit te sluiten
+Geen technische kennis? Geen probleem, wij doen het graag voor je [Meer informatie](mailto:info@popsup.nl)
 ::
 
 ::big-cta

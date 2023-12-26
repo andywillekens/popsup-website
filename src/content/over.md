@@ -10,4 +10,4 @@ navigation:
 
 # Over PopsUp
 
-Quality content
+Hier komt informatie over het bedrijf

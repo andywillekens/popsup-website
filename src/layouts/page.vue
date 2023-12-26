@@ -1,5 +1,5 @@
 <template>
-  <main class="content">
+  <main class="content mt-16">
     <slot />
   </main>
 </template>

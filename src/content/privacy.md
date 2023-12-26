@@ -10,4 +10,4 @@ navigation:
 
 # Privacy
 
-Quality content
+Hier komt de privacy informatie
