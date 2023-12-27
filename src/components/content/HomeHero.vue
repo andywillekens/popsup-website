@@ -8,11 +8,6 @@
     words: {
       type: String,
       default: 'sales'
-    },
-    title: {
-      type: String,
-      required: true,
-      default: ''
     }
   })
 
@@ -54,14 +49,14 @@
         <ContentSlot :use="$slots.default" unwrap="p" />
       </h1>
       <!-- CTA -->
-      <UiCoreButton
+      <CoreButton
         to="https://app.popsup.nl/create-account"
         label="Start gratis proefperiode"
         tag="nuxt-link"
         theme="cta-xl" />
     </section>
     <section class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0">
-      <UiImageViewer :images="imageArr" />
+      <ImageViewer :images="imageArr" />
     </section>
   </section>
 </template>

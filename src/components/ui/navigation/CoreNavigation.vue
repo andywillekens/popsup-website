@@ -55,7 +55,7 @@
     <!-- Logo and text container -->
     <div class="flex flex-col gap-4">
       <!-- Logo -->
-      <NuxtLink class="logo" to="/"><UiLogo /></NuxtLink>
+      <NuxtLink class="logo" to="/"><Logo /></NuxtLink>
       <!-- Subtext -->
       <p v-if="type === 'footer'" class="w-full lg:max-w-md">
         Bouw makkelijk en snel professionele pop-ups en integreer deze in je website, webshop of
@@ -70,10 +70,10 @@
         </template>
       </div>
       <!-- Application Navigation -->
-      <UiNavigationApplication />
+      <AppNavigation />
     </div>
     <!-- Menu button -->
-    <UiCoreButton
+    <CoreButton
       v-if="type === 'main'"
       @click="showMobileMenu = !showMobileMenu"
       class="md:hidden"
@@ -83,7 +83,7 @@
       icon-size="32"
       theme="ghost" />
     <!-- Mobile menu -->
-    <UiNavigationMobile
+    <MobileNavigation
       @closeMenu="showMobileMenu = false"
       v-if="type === 'main'"
       :items="mainMenuItems"

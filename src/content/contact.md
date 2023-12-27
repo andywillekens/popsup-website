@@ -9,6 +9,21 @@ navigation:
   category: Support
 ---
 
-# Kan ik je helpen?
+# Contact
 
-Heb je vragen of wil je een afspraak inplannen? Neem contact op, ik sta klaar om je te helpen. Liever een mail sturen? Dat kan via [info@popsup.nl](mailto:info@popsup.nl)
+Heb je vragen of wil je een afspraak inplannen? Neem contact op via: [support@popsup.nl](mailto:support@popsup.nl)
+
+## Bedrijfs gegevens
+
+PopsUp is een product van Webtactic.
+
+Onze bedrijfsgegevens voor jouw accountant.
+
+Bedrijfsnaam: **Webtactic**\
+Adres: **Goudplevier 26**\
+Postcode: **5165 KE**\
+Plaats: **Waspik**\
+Provincie: **Noord-brabant**
+
+BTW: **NL047247976B01**\
+KVK: **87050366**

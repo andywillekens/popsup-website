@@ -1,14 +1,7 @@
 <script setup lang="ts">
-  type Integration = {
-    title: string
-    url: string
-    image: string
-    width: number
-  }
-
-  const props = defineProps({
+  defineProps({
     integrations: {
-      type: String,
+      type: Array,
       required: true,
       default: ''
     }

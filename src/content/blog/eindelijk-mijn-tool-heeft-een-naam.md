@@ -1,8 +1,10 @@
 ---
-title: Eindelijk, mijn tool heeft een naam!
-description: Hoe ik op de naam van mijn software ben gekomen lees je hier.
-date: "2023-01-12"
+title: Eindelijk, mijn applicatie heeft een naam!
+description: Al lange tijd droom ik om een eigen product op de markt te brengen, maar hoe en wat, dat wist ik niet. Tot ik enige tijd geleden dacht, waarom ontwikkel ik niet een product op basis van de opgedane kennis van de aflopen tien jaar.
+date: '2023-01-12'
+author: 'Andy Willekens'
 head: true
+layout: blog
 ---
 
 Al lange tijd droom ik om een eigen product op de markt te brengen, maar hoe en wat, dat wist ik niet.

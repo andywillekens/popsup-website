@@ -23,32 +23,81 @@
   }
 
   h1 {
-    @apply text-3xl lg:text-4xl xl:text-7xl;
+    @apply text-3xl lg:text-4xl xl:text-5xl;
   }
 
   h2 {
     @apply text-2xl lg:text-3xl xl:text-4xl;
+    #blogPage &,
+    #contentPage & {
+      @apply mb-4;
+    }
   }
 
   h3 {
     @apply text-3xl;
+    #blogPage &,
+    #contentPage & {
+      @apply mb-4;
+    }
   }
 
   h4 {
     @apply text-xl sm:text-2xl;
+    #blogPage &,
+    #contentPage & {
+      @apply mb-4;
+    }
   }
 
   h5 {
     @apply text-xl;
+    #blogPage &,
+    #contentPage & {
+      @apply mb-4;
+    }
   }
 
   h6 {
     @apply text-lg;
+    #blogPage &,
+    #contentPage & {
+      @apply mb-4;
+    }
   }
 
   p {
+    #blogPage &,
+    #contentPage & {
+      @apply mb-4;
+    }
     footer & {
       @apply text-gray-600 text-md leading-normal;
+    }
+  }
+
+  ul {
+    @apply pl-8 mb-4;
+    li {
+      @apply before:content-['▸'] before:text-purple-300 before:text-2xl before:absolute before:pr-2 before:-translate-x-6;
+    }
+  }
+
+  blockquote {
+    @apply my-8 border-l-4 border-purple-400 py-8 pl-16 relative text-white text-2xl leading-10 font-head font-bold before:content-['”'] before:bg-purple-400 before:rounded-full before:w-10 before:h-10 before:top-1/2 before:-translate-y-1/2 before:text-white before:flex before:justify-center before:text-5xl before:absolute before:-left-[22px] before:leading-[1.15];
+    cite {
+      @apply block text-base font-normal text-gray-600 mt-2;
+    }
+  }
+
+  details {
+    @apply mt-5 p-4 bg-black/10 rounded-xl;
+    summary {
+      @apply cursor-pointer hover:text-purple-300 list-none font-head font-bold text-white text-xl;
+    }
+
+    &[open] summary {
+      @apply mb-4;
     }
   }
 

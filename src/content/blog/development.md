@@ -1,7 +1,10 @@
 ---
 title: Development..
+description: Het was even stil, maar ik heb niet stilgezeten! Ik heb achter de schermen hard gewerkt aan het bouwen van de applicatie, het koppelen van de database en het optimaliseren van de API.
 date: '2023-03-29'
+author: 'Andy Willekens'
 head: true
+layout: blog
 ---
 
 Het was even stil, maar ik heb niet stilgezeten! Ik heb achter de schermen hard gewerkt aan het bouwen van de applicatie, het koppelen van de database en het optimaliseren van de API.
@@ -27,8 +30,8 @@ Houd de website dus in de gaten voor toekomstige updates!
 
 P.S. Hier nog wat screenshots van de huidige staat van de applicatie (28-03-2023)
 
-![Een overzicht van al je popups.](https://popsup.nl/assets/images/static/development_1.jpg)
+![Een overzicht van al je popups.](/assets/images/blog/development_1.jpg)
 
-![Trigger instellingen](https://popsup.nl/assets/images/static/development_2.jpg)
+![Trigger instellingen](/assets/images/blog/development_2.jpg)
 
-![Geavanceerde instellingen](https://popsup.nl/assets/images/static/development_3.jpg)
+![Geavanceerde instellingen](/assets/images/blog/development_3.jpg)

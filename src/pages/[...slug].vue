@@ -15,5 +15,5 @@
     </template>
   </ContentDoc>
   <!-- Footer -->
-  <Footer />
+  <Footer :path="$route.path" />
 </template>

@@ -10,6 +10,12 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: '~/styles/tailwind.scss'
   },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false
+    }
+  ],
   content: {
     markdown: {
       anchorLinks: false

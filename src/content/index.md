@@ -5,7 +5,7 @@ layout: home
 navigation: false
 ---
 
-::hero-text{.breakout payoff="Boost je X met de Pop-up tool uit Nederland." words="sales, conversie, campagne, omzet, sales"}
+::home-hero{.breakout payoff="Boost je X met de Pop-up tool uit Nederland." words="sales, conversie, campagne, omzet, sales"}
 Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren in je website, webshop of webapplicatie.
 ::
 
@@ -13,11 +13,11 @@ Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren i
 Makkelijk te koppelen met:
 ::
 
-::gradient-heading
+::prose-gradient-heading
 Wat heeft PopsUp te bieden?
 ::
 
-::visual-text{image="popsup_dash_zoomed.png" :pull=true}
+::prose-text-visual{image="popsup_dash_zoomed.png" :pull=true}
 #title
 Overzichtelijk dashboard met statistieken.
 
@@ -25,7 +25,7 @@ Overzichtelijk dashboard met statistieken.
 Je hebt toegang tot de belangrijkste meetgegevens, zoals het aantal inschrijvers, vertoningen, conversies en andere cruciale prestatie-indicatoren.
 ::
 
-::visual-text{image="popsup_overview_zoomed.png" :push=true}
+::prose-text-visual{image="popsup_overview_zoomed.png" :push=true}
 #title
 Beheer al je campagnes in één overzicht.
 
@@ -33,7 +33,7 @@ Beheer al je campagnes in één overzicht.
 Bekijk en vergelijk direct de prestaties van jouw pop-up campagnes vanuit dit overzicht, hier zijn de belangrijkste statistieken direct inzichtelijk.
 ::
 
-::visual-text{image="popsup_inclusion_zoomed.png" :pull=true}
+::prose-text-visual{image="popsup_inclusion_zoomed.png" :pull=true}
 #title
 In en uitsluiten, makkelijk ingesteld.
 
@@ -41,7 +41,7 @@ In en uitsluiten, makkelijk ingesteld.
 Je campagne wil je niet op iedere URL tonen, via de instellingen kun je gemakkelijk de in/uit te sluiten URL's toevoegen.
 ::
 
-::visual-text{image="popsup_editor_zoomed.png" :push=true}
+::prose-text-visual{image="popsup_editor_zoomed.png" :push=true}
 #title
 Complete code-vrijheid binnen je pop-up.
 
@@ -52,8 +52,8 @@ Binnen de geïntegreerde code-editor kun je de HTML, style en Javascript van jou
 Geen technische kennis? Geen probleem, wij doen het graag voor je [Meer informatie](mailto:info@popsup.nl)
 ::
 
-::big-cta
-Klaar om je campagnes een upgrade te geven?
+::home-cta
+Klaar om je campagne een upgrade te geven?
 
 #small
 Geen betaalmethode nodig

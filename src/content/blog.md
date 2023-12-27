@@ -12,7 +12,5 @@ navigation:
 
 # Blog
 
-Een kijkje achter de schermen tijdens de ontwikkelingen van PopsUp.
-
 ::blog-overview
 ::

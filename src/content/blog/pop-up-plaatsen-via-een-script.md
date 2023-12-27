@@ -1,7 +1,10 @@
 ---
 title: Pop-up plaatsen via een script
-date: "2023-02-21"
+description: Wat voor mij een handige tool is, blijkt minder bruikbaar voor een groot aantal losse projecten. Met het instellen van een configuratie bestand en het toevoegen van HTML, CSS en Javascript had ik binnen no time een Pop-up gebouwd.
+date: '2023-02-21'
+author: 'Andy Willekens'
 head: true
+layout: blog
 ---
 
 Wat voor mij een handige tool is, blijkt minder bruikbaar voor een groot aantal losse projecten. Met het instellen van een configuratie bestand en het toevoegen van HTML, CSS en Javascript had ik binnen no time een Pop-up gebouwd. Maar deze oplossing op zich zelf was niet scalable gezien ik:
