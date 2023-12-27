@@ -5,7 +5,7 @@
 <template>
   <main id="blogPage" class="content mt-16 flex flex-col gap-2">
     <!-- Title -->
-    <h1 class="text-5xl">{{ data?.title }}</h1>
+    <h1>{{ data?.title }}</h1>
     <section class="flex flex-col mb-4">
       <!-- Author -->
       <span class="text-base text-white/40">Auteur: {{ data?.author }}</span>

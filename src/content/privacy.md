@@ -11,6 +11,8 @@ navigation:
 # Privacy
 
 \
+PopsUp is een product van Webtactic.\
+\
 Webtactic, gevestigd aan de Goudplevier 26,
 5165 KE te Waspik, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
 

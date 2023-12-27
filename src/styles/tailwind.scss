@@ -84,7 +84,7 @@
   }
 
   blockquote {
-    @apply my-8 border-l-4 border-purple-400 py-8 pl-16 relative text-white text-2xl leading-10 font-head font-bold before:content-['”'] before:bg-purple-400 before:rounded-full before:w-10 before:h-10 before:top-1/2 before:-translate-y-1/2 before:text-white before:flex before:justify-center before:text-5xl before:absolute before:-left-[22px] before:leading-[1.15];
+    @apply my-8 border-l-4 border-purple-400 py-8 pl-16 relative text-white text-lg sm:text-2xl leading-8 sm:leading-10 font-head font-bold before:content-['”'] before:bg-purple-400 before:rounded-full before:w-10 before:h-10 before:top-1/2 before:-translate-y-1/2 before:text-white before:flex before:justify-center before:text-5xl before:absolute before:-left-[22px] before:leading-[1.15];
     cite {
       @apply block text-base font-normal text-gray-600 mt-2;
     }
