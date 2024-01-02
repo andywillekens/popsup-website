@@ -11,9 +11,9 @@ Het was even stil, maar ik heb niet stilgezeten! Ik heb achter de schermen hard 
 
 Is PopsUp dan klaar? Niet klaar, wel een stuk verder in de ontwikkelsfase! Er zijn nog een bak aan features die er in moeten, maar de meest cruciale functionaliteiten werken!
 
-### Cruciale functionaliteiten?
+### Cruciale functies?
 
-Ja, zonder deze functionaliteiten zou er geen PopsUp zijn 😉.\
+Ja, zonder deze functies zou er geen PopsUp zijn 😉.\
 Onder deze functionaliteiten vallen:
 
 - Aanmaken, bewerken, opslaan en verwijderen van een pop-up

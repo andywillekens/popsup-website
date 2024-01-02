@@ -13,11 +13,9 @@ navigation:
 
 Heb je vragen of wil je een afspraak inplannen? Neem contact op via: [support@popsup.nl](mailto:support@popsup.nl)
 
-## Bedrijfs gegevens
+#### Bedrijfs gegevens
 
 PopsUp is een product van Webtactic.
-
-Onze bedrijfsgegevens voor jouw accountant.
 
 Bedrijfsnaam: **Webtactic**\
 Adres: **Goudplevier 26**\

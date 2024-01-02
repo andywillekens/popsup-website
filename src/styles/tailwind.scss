@@ -93,11 +93,14 @@
   details {
     @apply mt-5 p-4 bg-black/10 rounded-xl;
     summary {
-      @apply cursor-pointer hover:text-purple-300 list-none font-head font-bold text-white text-xl;
+      @apply flex justify-between gap-4 items-center cursor-pointer hover:text-purple-300 list-none font-head font-bold text-white text-xl after:content-['▾'] after:text-4xl after:leading-6;
+      &::-webkit-details-marker {
+        @apply hidden;
+      }
     }
 
     &[open] summary {
-      @apply mb-4;
+      @apply mb-4 after:content-['▴'];
     }
   }
 
