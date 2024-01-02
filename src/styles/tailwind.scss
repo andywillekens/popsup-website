@@ -77,9 +77,12 @@
   }
 
   ul {
-    @apply pl-8 mb-4;
-    li {
-      @apply before:content-['▸'] before:text-purple-300 before:text-2xl before:absolute before:pr-2 before:-translate-x-6;
+    #blogPage &,
+    #contentPage & {
+      @apply pl-8 mb-4;
+      li {
+        @apply before:content-['▸'] before:text-purple-300 before:text-2xl before:absolute before:pr-2 before:-translate-x-6;
+      }
     }
   }
 
@@ -222,6 +225,15 @@
     mask-image: linear-gradient(transparent, white, white, white, transparent);
     mask-type: luminance;
     mask-mode: alpha;
+  }
+
+  .strokeDashedBg {
+    stroke-dasharray: 10;
+    stroke-width: 5px;
+  }
+
+  .grid-area-1 {
+    grid-area: 1/1;
   }
 
   .formkit-form.formkit-horizontal {

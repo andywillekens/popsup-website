@@ -1,16 +1,20 @@
 <script setup lang="ts">
-  defineProps({
+  const props = defineProps({
     path: {
       type: String,
       required: true
     }
   })
+
+  const isHome = ref(props.path === '/')
 </script>
 <template>
   <footer class="full-width grid-cols-content content-end">
     <CallToAction
-      v-if="path !== '/'"
-      title="Geef je campagne een upgrade."
+      :type="isHome ? 'large' : 'base'"
+      :title="
+        isHome ? 'Klaar om je campagne een upgrade te geven?' : 'Geef je campagne een upgrade.'
+      "
       small="Geen betaalmethode nodig" />
     <section class="full-width grid-cols-content bg-mirage-960 self-end pt-16 pb-8">
       <section class="content-large grid border-b border-solid pb-8 border-gray-950">

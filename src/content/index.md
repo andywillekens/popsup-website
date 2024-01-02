@@ -14,7 +14,7 @@ Makkelijk te koppelen met:
 ::
 
 ::prose-gradient-heading
-Wat heeft PopsUp te bieden?
+Waarom voor PopsUp kiezen?
 ::
 
 ::prose-text-visual{image="popsup_dash_zoomed.png" :pull=true}
@@ -33,15 +33,7 @@ Beheer al je campagnes in één overzicht.
 Bekijk en vergelijk direct de prestaties van jouw pop-up campagnes vanuit dit overzicht, hier zijn de belangrijkste statistieken direct inzichtelijk.
 ::
 
-::prose-text-visual{image="popsup_inclusion_zoomed.png" :pull=true}
-#title
-In en uitsluiten, makkelijk ingesteld.
-
-#text
-Je campagne wil je niet op iedere URL tonen, via de instellingen kun je gemakkelijk de in/uit te sluiten URL's toevoegen.
-::
-
-::prose-text-visual{image="popsup_editor_zoomed.png" :push=true}
+::prose-text-visual{image="popsup_editor_zoomed.png" :pull=true}
 #title
 Complete code-vrijheid binnen je pop-up.
 
@@ -52,9 +44,9 @@ Binnen de geïntegreerde code-editor kun je de HTML, style en Javascript van jou
 Geen technische kennis? Geen probleem, wij doen het graag voor je [Meer informatie](mailto:info@popsup.nl)
 ::
 
-::home-cta
-Klaar om je campagne een upgrade te geven?
+::prose-gradient-heading
+Ruime keuze uit verschillende triggers!
+::
 
-#small
-Geen betaalmethode nodig
+::trigger-bar{:triggers='[{"name": "Met vertraging", "icon": "ph:clock-countdown-duotone"}, {"name": "Pagina weergave", "icon": "ph:eye-duotone"},{"name": "Geplande weergave", "icon": "ph:calendar-check-duotone"},{"name": "Exit intent", "icon": "ph:sign-out-duotone"},{"name": "Na inactiviteit", "icon": "ph:hourglass-low-duotone"},{"name": "Scroll percentage", "icon": "ph:mouse-simple-duotone"},{"name": "In/uit-gesloten URL(s)", "icon": "ph:link-simple-duotone"}]'}
 ::

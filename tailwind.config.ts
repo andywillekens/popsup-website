@@ -185,6 +185,11 @@ export default {
           '25%': { transform: 'scale(1)' },
           '35%': { transform: 'scale(1.2)' },
           '45%': { transform: 'scale(1)' }
+        },
+
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' }
         }
       },
       animation: {
@@ -194,7 +199,8 @@ export default {
         'pulsate-slow-green': 'pulsateGreen 2s infinite',
         'pulsate-slow-purple': 'pulsatePurple 2s infinite',
         'heart-beat': 'heartBeat 1.2s ease-in-out infinite',
-        'word-slider': 'slidewords 8s cubic-bezier(.16,1,.3,1) infinite'
+        'word-slider': 'slidewords 8s cubic-bezier(.16,1,.3,1) infinite',
+        'infinite-scrolling-bar': 'infinite-scroll 50s linear infinite'
       }
     }
   }
