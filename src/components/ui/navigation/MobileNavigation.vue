@@ -21,7 +21,7 @@
         ? 'translate-y-0 opacity-100 pointer-events-auto'
         : '-translate-y-16 opacity-0 pointer-events-none'
     "
-    class="absolute z-50 top-0 right-0 w-full sm:w-[350px] flex gap-12 flex-col md:hidden bg-mirage-960 pt-5 pb-8 px-8 transition-all duration-300 trans">
+    class="absolute z-50 top-0 right-0 w-full sm:w-[350px] flex gap-12 flex-col md:hidden bg-white pt-5 pb-8 px-8 transition-all duration-300 rounded-b-lg shadow-md shadow-gray-700/5">
     <div class="flex justify-between">
       <!-- Logo -->
       <NuxtLink class="logo" to="/"><Logo /></NuxtLink>
@@ -30,7 +30,7 @@
         @click="closeMenu"
         class="md:hidden"
         icon-prefix="ph:x"
-        icon-color="white"
+        icon-color="purple-600"
         icon-size="32"
         tag="button"
         theme="ghost" />

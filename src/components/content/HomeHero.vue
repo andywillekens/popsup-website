@@ -53,7 +53,7 @@
         to="https://app.popsup.nl/create-account"
         label="Start gratis proefperiode"
         tag="nuxt-link"
-        theme="cta-xl" />
+        theme="cta" />
     </section>
     <section class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0">
       <ImageViewer :images="imageArr" />

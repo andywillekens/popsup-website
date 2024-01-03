@@ -78,7 +78,7 @@
       @click="showMobileMenu = !showMobileMenu"
       class="md:hidden"
       icon-prefix="ph:list-duotone"
-      icon-color="white"
+      icon-color="purple-600"
       tag="button"
       icon-size="32"
       theme="ghost" />

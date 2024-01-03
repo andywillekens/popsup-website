@@ -29,7 +29,7 @@
         to="https://app.popsup.nl/create-account"
         label="Start gratis proefperiode"
         tag="nuxt-link"
-        theme="cta-xl" />
+        theme="cta" />
       <p class="text-sm text-gray-500">
         {{ small }}
       </p>
@@ -47,7 +47,7 @@
           to="https://app.popsup.nl/create-account"
           label="Start gratis proefperiode"
           tag="nuxt-link"
-          theme="cta-xl" />
+          theme="cta" />
         <p class="text-sm text-gray-600">
           {{ small }}
         </p>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;500;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;500;700&family=Poppins:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -115,7 +115,7 @@
     }
 
     header & {
-      @apply text-mirage-900 no-underline hover:text-purple-600;
+      @apply text-mirage-900 font-head font-bold tracking-tight no-underline hover:text-purple-600;
     }
 
     footer & {

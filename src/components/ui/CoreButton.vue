@@ -35,16 +35,18 @@
   const themeClasses = computed(() => {
     if (props.theme === 'default') {
       return 'px-4 py-2 !text-white bg-purple-500 hover:bg-purple-600 !border-0'
-    } else if (props.theme === 'cta-xl') {
-      return 'px-6 py-3 text-lg !font-bold bg-purple-500 text-white hover:bg-purple-600 hover:text-white'
+    } else if (props.theme === 'cta') {
+      return 'px-6 py-3 text-lg bg-purple-500 text-white hover:bg-purple-600 hover:text-white'
+    } else if (props.theme === 'cta-alt') {
+      return 'px-4 py-2 text-lg bg-purple-400/20 text-purple-600 hover:bg-purple-600 hover:text-white'
     } else if (props.theme === 'danger') {
       return 'px-4 py-2 text-white bg-red-500 hover:bg-red-600'
     } else if (props.theme === 'ghost') {
-      return 'px-2 py-1 text-gray hover:text-white bg-transparent hover:bg-mirage-900'
+      return 'px-2 py-1 text-purple-500 bg-transparent hover:bg-purple-400/20'
     } else if (props.theme === 'alt') {
       return 'px-4 py-2 bg-purple-500/30 text-purple-300 hover:bg-purple-500 hover:text-white focus:z-10'
     } else if (props.theme === 'alt-grey') {
-      return 'px-4 py-2 bg-gray-600/10 text-mirage-9000 bg-grey-500/20 hover:hover:bg-mirage-400/30 hover:text-mirage-900 focus:z-10'
+      return 'px-4 py-2 bg-gray-600/10 text-mirage-9000 bg-grey-500/20 hover:hover:bg-mirage-900 hover:text-white focus:z-10'
     }
   })
 
@@ -77,7 +79,7 @@
     :is="component"
     v-bind="buttonProps"
     :class="[
-      `group text-md no-underline text-center flex tracking-tight items-center justify-center font-medium rounded-lg transition-all duration-150 outline-0 outline-none cursor-pointer gap-2`,
+      `group text-md no-underline text-center flex tracking-tight items-center justify-center font-head font-medium rounded-lg transition-all duration-150 outline-0 outline-none cursor-pointer gap-2`,
       themeClasses,
       loadingClasses
     ]">
