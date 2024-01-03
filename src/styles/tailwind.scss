@@ -69,7 +69,7 @@
   p {
     #blogPage &,
     #contentPage & {
-      @apply mb-4;
+      @apply mb-4 text-lg tracking-normal leading-relaxed;
     }
     footer & {
       @apply text-gray-600 text-md leading-normal;
@@ -79,10 +79,17 @@
   ul {
     #blogPage &,
     #contentPage & {
-      @apply pl-8 mb-4;
+      @apply pl-8 mb-4 text-lg tracking-normal leading-relaxed;
       li {
-        @apply before:content-['▸'] before:text-purple-300 before:text-2xl before:absolute before:pr-2 before:-translate-x-6;
+        @apply before:leading-none before:content-['▸'] before:text-purple-300 before:text-2xl before:absolute before:pr-2 before:-translate-x-6;
       }
+    }
+  }
+
+  img {
+    #blogPage &,
+    #contentPage & {
+      @apply rounded-lg shadow-lg shadow-gray-700/5 mb-8;
     }
   }
 
