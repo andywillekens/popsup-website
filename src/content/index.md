@@ -5,8 +5,8 @@ layout: home
 navigation: false
 ---
 
-::home-hero{.breakout payoff="Boost je X met de Pop-up tool uit Nederland." words="sales, conversie, campagne, omzet, sales"}
-Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren in je website, webshop of webapplicatie.
+::home-hero{.breakout payoff="Boost je X met de pop-up tool uit Nederland." words="sales, conversie, campagne, omzet, sales"}
+Met PopsUp kun je makkelijk en snel professionele pop-ups bouwen en integreren in je website, webshop of webapplicatie.
 ::
 
 ::integration-bar{:integrations='[{"title": "klaviyo", "url": "https://www.klaviyo.com/", "image": "klaviyo.svg"}, {"title": "ActiveCampaign", "url": "https://www.activecampaign.com/", "image": "activecampaign.svg"}, {"title": "Mailchimp", "url": "https://mailchimp.com/", "image": "mailchimp.svg"}, {"title": "Mailblue", "url": "https://mailblue.nl/", "image": "mailblue.svg"}]'}
@@ -14,7 +14,7 @@ Makkelijk te koppelen met:
 ::
 
 ::prose-gradient-heading
-Waarom voor PopsUp kiezen?
+Waarom voor [PopsUp] kiezen?
 ::
 
 ::prose-text-visual{image="popsup_dash_zoomed.png" :pull=true}
@@ -45,7 +45,7 @@ Geen technische kennis? Geen probleem, wij doen het graag voor je [Meer informat
 ::
 
 ::prose-gradient-heading
-Ruime keuze uit verschillende triggers!
+Ruime keuze uit verschillende [triggers!]
 ::
 
 ::trigger-bar{:triggers='[{"name": "Met vertraging", "icon": "ph:clock-countdown-duotone"}, {"name": "Pagina weergave", "icon": "ph:eye-duotone"},{"name": "Geplande weergave", "icon": "ph:calendar-check-duotone"},{"name": "Exit intent", "icon": "ph:sign-out-duotone"},{"name": "Na inactiviteit", "icon": "ph:hourglass-low-duotone"},{"name": "Scroll percentage", "icon": "ph:mouse-simple-duotone"},{"name": "In/uit-gesloten URL(s)", "icon": "ph:link-simple-duotone"}]'}

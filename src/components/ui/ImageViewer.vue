@@ -24,7 +24,7 @@
 </script>
 <template>
   <div
-    class="flex pl-2 pr-3 gap-2 items-center border bg-white/5 border-white/10 w-full h-12 rounded-lg rounded-b-none">
+    class="flex pl-2 pr-3 gap-2 items-center border bg-mirage-960/90 border-mirage-960/10 w-full h-12 rounded-lg rounded-b-none">
     <div class="flex gap-1">
       <Icon
         @click="cycleImages('-')"
@@ -43,7 +43,7 @@
     </div>
   </div>
   <div
-    class="shadow-lg border border-t-0 border-white/10 bg-mirage-960 rounded-xl rounded-t-none overflow-hidden grid relative">
+    class="shadow-lg border border-t-0 border-mirage-960/5 bg-mirage-960 rounded-xl rounded-t-none overflow-hidden grid relative">
     <template v-for="(image, imageIdx) in images">
       <NuxtImg
         :class="

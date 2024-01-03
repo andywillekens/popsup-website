@@ -31,8 +31,8 @@
           ? 'before:bg-gradient-to-l sm:before:bg-gradient-to-r before:-translate-x-10'
           : 'before:bg-gradient-to-r before:translate-x-10'
       "
-      class="flex flex-col max-w-4xl gap-6 py-6 sm:p-6 relative before:w-full sm:before:w-11/12 before:h-full before:absolute before:top-0 before:left-0 sm:before:translate-x-0 before:z-[-1] before:from-transparent before:to-purple-500/50 sm:before:rounded-2xl">
-      <h4 class="pr-0 sm:pr-20">
+      class="flex flex-col max-w-4xl gap-6 py-6 sm:p-6 relative before:w-full sm:before:w-11/12 before:h-full before:absolute before:top-0 before:left-0 sm:before:translate-x-0 before:z-[-1] before:from-transparent before:to-mirage-300/40 sm:before:rounded-2xl">
+      <h4 class="text-mirage-900 pr-0 sm:pr-20">
         <ContentSlot :use="$slots.title" unwrap="p" />
       </h4>
       <div class="flex flex-col md:flex-row gap-6">

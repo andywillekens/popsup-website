@@ -7,11 +7,11 @@
 @layer base {
   html,
   body {
-    @apply h-screen bg-fixed bg-mirage-950 bg-gradient-to-b from-mirage-950 to-mirage-900;
+    @apply h-screen bg-fixed bg-gray-50;
   }
 
   body {
-    @apply font-body antialiased leading-7 tracking-wide text-[18px] text-gray-400;
+    @apply font-body antialiased leading-7 tracking-wide text-[18px] text-black;
 
     #__nuxt {
       @apply min-h-screen grid grid-cols-content;
@@ -19,7 +19,7 @@
   }
 
   :is(h1, h2, h3, h4, h5, h6) {
-    @apply font-head font-bold leading-snug text-white;
+    @apply font-head font-bold leading-snug text-mirage-900;
   }
 
   h1 {
@@ -87,16 +87,16 @@
   }
 
   blockquote {
-    @apply my-8 border-l-4 border-purple-400 py-8 pl-16 relative text-white text-lg sm:text-2xl leading-8 sm:leading-10 font-head font-bold before:content-['”'] before:bg-purple-400 before:rounded-full before:w-10 before:h-10 before:top-1/2 before:-translate-y-1/2 before:text-white before:flex before:justify-center before:text-5xl before:absolute before:-left-[22px] before:leading-[1.15];
+    @apply my-8 border-l-4 border-purple-400 py-8 pl-16 relative text-mirage-900 text-lg sm:text-2xl leading-8 sm:leading-10 font-head font-bold before:content-['”'] before:bg-purple-400 before:rounded-full before:w-10 before:h-10 before:top-1/2 before:-translate-y-1/2 before:text-white before:flex before:justify-center before:text-5xl before:absolute before:-left-[22px] before:leading-[1.15];
     cite {
       @apply block text-base font-normal text-gray-600 mt-2;
     }
   }
 
   details {
-    @apply mt-5 p-4 bg-black/10 rounded-xl;
+    @apply mt-5 p-4 bg-mirage-400/5 rounded-xl;
     summary {
-      @apply flex justify-between gap-4 items-center cursor-pointer hover:text-purple-300 list-none font-head font-bold text-white text-xl after:content-['▾'] after:text-4xl after:leading-6;
+      @apply flex justify-between gap-4 items-center cursor-pointer hover:text-purple-500 list-none font-head font-bold text-mirage-900 text-xl after:content-['▾'] after:text-3xl after:leading-6;
       &::-webkit-details-marker {
         @apply hidden;
       }
@@ -108,14 +108,14 @@
   }
 
   a {
-    @apply text-mirage-300 font-normal underline decoration-solid hover:text-white transition-all duration-100;
+    @apply text-purple-400 font-normal underline decoration-solid hover:text-purple-600 transition-all duration-100;
 
     .mobileNav & {
       @apply text-xl;
     }
 
     header & {
-      @apply text-gray-400 no-underline hover:text-purple-400;
+      @apply text-mirage-900 no-underline hover:text-purple-600;
     }
 
     footer & {
@@ -211,8 +211,18 @@
     grid-column: full-width;
   }
 
+  .pause {
+    animation-play-state: paused;
+  }
+
   .visualText p {
-    @apply text-lg text-gray-400 mb-4;
+    @apply text-lg text-mirage-700 mb-4;
+  }
+
+  .gradientHeading {
+    span {
+      @apply bg-gradient-to-tr from-purple-300 to-purple-700 bg-clip-text text-transparent;
+    }
   }
 
   .masked {

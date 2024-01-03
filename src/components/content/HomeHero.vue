@@ -30,14 +30,14 @@
     <section class="w-full md:max-w-lg lg:max-w-2xl flex flex-col gap-8 items-start flex-shrink-0">
       <!-- Payoff -->
       <p
-        class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-[2.5rem] sm:leading-[4rem] md:leading-[4.5rem] lg:leading-[5rem] text-white">
+        class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[2.5rem] sm:leading-[3.7rem] md:leading-[4.3rem] lg:leading-[4.5rem] text-mirage-900 font-head">
         {{ splitPayoff[0] }}
         <!-- Wordflipper -->
         <span
-          class="inline-flex flex-col w-auto h-[2.5rem] sm:h-[4rem] md:h-[4.5rem] lg:h-[5rem] overflow-hidden">
+          class="inline-flex flex-col w-auto h-[2.5rem] sm:h-[3.7rem] md:h-[4.3rem] lg:h-[4.5rem] overflow-hidden">
           <template v-for="word in wordArray">
             <span
-              class="text-purple-400 drop-shadow-md inline flex-grow-0 justify-start animate-word-slider text-left w-full h-[2.5rem] sm:h-[4rem] md:h-[4.5rem] lg:h-[5rem]"
+              class="text-purple-400 inline flex-grow-0 justify-start animate-word-slider text-left w-full h-[2.5rem] sm:h-[3.7rem] md:h-[4.3rem] lg:h-[4.5rem]"
               >{{ word }}</span
             >
           </template> </span
@@ -45,7 +45,7 @@
         {{ splitPayoff[1] }}
       </p>
       <!-- H1 -->
-      <h1 class="text-base leading-relaxed sm:leading-normal sm:text-md font-normal text-gray-400">
+      <h1 class="text-base leading-relaxed sm:leading-normal sm:text-md font-normal text-gray-900">
         <ContentSlot :use="$slots.default" unwrap="p" />
       </h1>
       <!-- CTA -->

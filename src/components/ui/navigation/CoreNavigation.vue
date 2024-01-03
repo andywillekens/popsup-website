@@ -55,7 +55,7 @@
     <!-- Logo and text container -->
     <div class="flex flex-col gap-4">
       <!-- Logo -->
-      <NuxtLink class="logo" to="/"><Logo /></NuxtLink>
+      <NuxtLink class="logo" to="/"><Logo :type="type === 'main' ? 'dark' : 'white'" /></NuxtLink>
       <!-- Subtext -->
       <p v-if="type === 'footer'" class="w-full lg:max-w-md">
         Bouw makkelijk en snel professionele pop-ups en integreer deze in je website, webshop of
