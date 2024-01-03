@@ -29,21 +29,20 @@
       <Icon
         @click="cycleImages('-')"
         name="ph:arrow-circle-left-duotone"
-        class="duration-150 transition-all text-gray-800 hover:text-purple-500 hover:scale-105 cursor-pointer"
+        class="duration-150 transition-all text-gray-700 hover:text-purple-500 hover:scale-105 cursor-pointer"
         size="30" />
       <Icon
         @click="cycleImages('+')"
         name="ph:arrow-circle-right-duotone"
-        class="duration-150 transition-all text-gray-800 hover:text-purple-500 hover:scale-105 cursor-pointer"
+        class="duration-150 transition-all text-gray-700 hover:text-purple-500 hover:scale-105 cursor-pointer"
         size="30" />
     </div>
     <div
-      class="w-full h-6 pointer-events-none border-2 border-gray-800 bg-gray-800/25 rounded text-xs leading-[0] flex items-center px-2 text-gray-400">
+      class="w-full h-6 pointer-events-none border-2 border-gray-700 bg-gray-800/25 rounded text-xs leading-[0] flex items-center px-2 text-gray-400">
       {{ url }}
     </div>
   </div>
-  <div
-    class="shadow-lg border border-t-0 border-mirage-960/5 bg-mirage-960 rounded-xl rounded-t-none overflow-hidden grid relative">
+  <div class="shadow-lg bg-gray-100 rounded-xl rounded-t-none overflow-hidden grid relative">
     <template v-for="(image, imageIdx) in images">
       <NuxtImg
         :class="
@@ -56,7 +55,7 @@
         class="row-[1] col-[1] relative transition-all duration-500" />
       <div
         :class="imageIdx === currentImage ? 'translate-y-0 z-20' : 'translate-y-[100px] z-10'"
-        class="absolute bottom-4 right-4 bg-black/30 shadow-md shadow-purple-500/10 text-white z-30 text-sm py-0 px-2 rounded-sm transition-all duration-500">
+        class="absolute bottom-4 right-4 bg-white/70 tracking-normal shadow-sm shadow-black/10 text-mirage-900 font-head font-medium z-30 text-xs py-0 px-2 rounded-md transition-all duration-500">
         {{ image.title }}
       </div>
     </template>
