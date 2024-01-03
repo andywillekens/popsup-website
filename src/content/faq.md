@@ -18,7 +18,7 @@ Deze software gaat jouw campagne(s) naar een hoger niveau tillen door gebruik te
 
 <details>
 <summary>Is PopsUp gratis te gebruiken?</summary>
-Nee, PopsUp is niet gratis. Je krijgt 14 dagen de tijd om de software uit te proberen. Wellicht dat PopsUp een gratis plan krijgt in de toekomst.
+De eerste 14 dagen kun je de software gratis en zonder betaalmethode uitproberen. Na deze periode dien je een abbonement af te nemen. Wellicht dat PopsUp een gratis plan krijgt in de toekomst.
 </details>
 
 <details>
@@ -28,18 +28,18 @@ Binnen PopsUp maak je een campagne aan, deze genereerd een uniek script wat je v
 
 <details>
 <summary>Moet ik kunnen coderen om PopsUp te gebruiken?</summary>
-Voor nu wel, om een pop-up te bouwen heb je kennis nodig van HTML, CSS en Javascript. In het eerste kwartaal van dit jaar komt er een update waarmee je zonder enige technische kennis een pop-up in elkaar kunt klikken.
+Om een pop-up te bouwen heb je kennis nodig van HTML, CSS en Javascript. In het tweede kwartaal van dit jaar komt er een update waarmee je zonder enige technische kennis een pop-up in elkaar kunt klikken.
 </details>
 
 <details>
 <summary>Waarom zou ik voor PopsUp kiezen?</summary>
-PopsUp is handig in gebruik voor zowel een marketeer, een webshop beheerder als voor developers. De software is gebruiksvriendelijk waardoor iedereen makkelijk en snel een effectieve pop-up op kan zetten.
+PopsUp is een aanvulling voor zowel een marketeer, webshop beheerder als developers. De software is gebruiksvriendelijk waardoor iedereen makkelijk en snel effectieve pop-up formulieren op kan zetten.
 
-Daarnaast kunnen developers hun eigen code toevoegen om zo het maximale uit de software te halen en een unieke Pop-up te creëren.
+Daarnaast kunnen developers hun eigen code toevoegen om zo het maximale uit de software te halen en een unieke pop-up campagne te creëren.
 
 </details>
 
 <details>
 <summary>Zal PopsUp mijn website trager maken?</summary>
-Absoluut niet! PopsUp is zorgvuldig ontwikkeld met performance in gedachte. Onze embedded code zal geen effect hebben op je laadtijd.
+Absoluut niet! PopsUp is zorgvuldig ontwikkeld met performance in gedachte. Onze embedded code zal geen effect hebben op je laadtijd. Het is wel belangrijk dat je het script zoals in de software exact over neemt en op de juiste plaats in de code van je website toevoegt.
 </details>

@@ -103,7 +103,7 @@
   details {
     @apply mt-5 p-4 bg-mirage-400/5 rounded-xl;
     summary {
-      @apply flex justify-between gap-4 items-center cursor-pointer hover:text-purple-500 list-none font-head font-bold text-mirage-900 text-xl after:content-['▾'] after:text-3xl after:leading-6;
+      @apply flex justify-between gap-4 items-center cursor-pointer hover:text-purple-500 list-none font-head font-bold text-mirage-900 after:text-purple-200 text-xl after:content-['▾'] after:text-3xl after:leading-6;
       &::-webkit-details-marker {
         @apply hidden;
       }
@@ -206,15 +206,15 @@
   .grid-cols-content > div:not(.breakout) {
     @apply grid;
     grid-template-columns:
-      [full-width-start] minmax(2rem, 1fr) [breakout-start] minmax(0, 100px) [content-large-start] minmax(
+      [full-width-start] minmax(1rem, 1fr) [breakout-start] minmax(0, 100px) [content-large-start] minmax(
         0px,
         250px
       )
-      [content-start] min(100% - ((2rem) * 2), 780px) [content-end] minmax(0px, 250px) [content-large-end] minmax(
+      [content-start] min(100% - ((1rem) * 2), 780px) [content-end] minmax(0px, 250px) [content-large-end] minmax(
         0,
         100px
       )
-      [breakout-end] minmax(2rem, 1fr) [full-width-end];
+      [breakout-end] minmax(1rem, 1fr) [full-width-end];
     grid-column: full-width;
   }
 

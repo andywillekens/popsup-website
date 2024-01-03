@@ -10,8 +10,16 @@
     </template>
     <!-- 404 -->
     <template #not-found>
-      <h1>Oeps! Er ging iets niet goed..</h1>
-      <p>Er is iets misgegaan bij het laden van de pagina of de pagina is verplaatst.</p>
+      <div>
+        <div class="grid content-large items-start">
+          <section class="flex flex-col">
+            <h1 class="text-7xl text-purple-500">404</h1>
+            <h3 class="mb-2">Pagina niet gevonden!</h3>
+            <p>Er is iets misgegaan bij het laden van de pagina of de pagina is verplaatst.</p>
+            <a href="/">Terug naar de homepage</a>
+          </section>
+        </div>
+      </div>
     </template>
   </ContentDoc>
   <!-- Footer -->

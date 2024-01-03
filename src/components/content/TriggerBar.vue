@@ -1,11 +1,14 @@
 <script setup lang="ts">
-  defineProps({
-    triggers: {
-      type: Array,
-      required: true,
-      default: ''
-    }
-  })
+  export interface Triggers {
+    triggers: [
+      {
+        name: string
+        icon: string
+      }
+    ]
+  }
+
+  defineProps<Triggers>()
 </script>
 <template>
   <section
@@ -15,7 +18,7 @@
         class="flex items-center justify-center md:justify-start animate-infinite-scrolling-bar group-hover:pause p-0 m-0">
         <li
           v-for="trigger in triggers"
-          class="flex items-center justify-between gap-3 text-mirage-900 whitespace-nowrap bg-mirage-300/30 pl-4 pr-6 py-3 xl:pl-8 xl:pr-12 xl:py-6 rounded-xl font-head text-md xl:text-xl font-bold mx-4 xl:mx-8 relative overflow-hidden">
+          class="flex items-center justify-between gap-3 text-mirage-900 whitespace-nowrap bg-mirage-300/20 pl-4 pr-6 py-3 xl:pl-8 xl:pr-12 xl:py-6 rounded-xl font-head text-md xl:text-xl font-bold mx-4 xl:mx-8 relative overflow-hidden">
           <Icon :name="trigger.icon" class="text-purple-600" size="48" />
           {{ trigger.name }}
           <Icon
@@ -28,7 +31,7 @@
         class="flex items-center justify-center md:justify-start animate-infinite-scrolling-bar group-hover:pause p-0 m-0">
         <li
           v-for="trigger in triggers"
-          class="flex items-center justify-between gap-3 text-mirage-900 whitespace-nowrap bg-mirage-300/30 pl-4 pr-6 py-3 xl:pl-8 xl:pr-12 xl:py-6 rounded-xl font-head text-md xl:text-xl font-bold mx-4 xl:mx-8 relative overflow-hidden">
+          class="flex items-center justify-between gap-3 text-mirage-900 whitespace-nowrap bg-mirage-300/20 pl-4 pr-6 py-3 xl:pl-8 xl:pr-12 xl:py-6 rounded-xl font-head text-md xl:text-xl font-bold mx-4 xl:mx-8 relative overflow-hidden">
           <Icon :name="trigger.icon" class="text-purple-600" size="48" />
           {{ trigger.name }}
           <Icon

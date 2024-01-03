@@ -1,17 +1,21 @@
 <script setup lang="ts">
-  defineProps({
-    integrations: {
-      type: Array,
-      required: true,
-      default: ''
-    }
-  })
+  export interface Integrations {
+    title: string
+    integrations: [
+      {
+        title: string
+        url: string
+        image: string
+      }
+    ]
+  }
+  defineProps<Integrations>()
 </script>
 <template>
   <section
     class="flex flex-col lg:flex-row full-width justify-center items-center gap-10 xl:gap-20 mt-8 sm:mt-16 lg:mt-32 px-4 py-16 bg-white">
     <p class="text-mirage-950">
-      <ContentSlot :use="$slots.default" unwrap="p" />
+      {{ title }}
     </p>
     <div class="grid grid-cols-2 sm:flex sm:flex-row gap-14 xl:gap-20">
       <template v-for="integration in integrations">

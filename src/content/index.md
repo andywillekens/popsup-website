@@ -6,12 +6,18 @@ navigation: false
 ---
 
 ::home-hero{.breakout payoff="Boost je X met de pop-up tool uit Nederland." words="sales, conversie, campagne, omzet, sales"}
-Met PopsUp kun je makkelijk en snel professionele pop-ups bouwen en integreren in je website, webshop of webapplicatie.
+Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.
 ::
 
-::integration-bar{:integrations='[{"title": "klaviyo", "url": "https://www.klaviyo.com/", "image": "klaviyo.svg"}, {"title": "ActiveCampaign", "url": "https://www.activecampaign.com/", "image": "activecampaign.svg"}, {"title": "Mailchimp", "url": "https://mailchimp.com/", "image": "mailchimp.svg"}, {"title": "Mailblue", "url": "https://mailblue.nl/", "image": "mailblue.svg"}]'}
-Makkelijk te koppelen met:
-::
+:integration-bar{
+:title="Makkelijk te koppelen met:"
+:integrations='[
+{"title": "klaviyo", "url": "https://www.klaviyo.com/", "image": "klaviyo.svg"},
+{"title": "ActiveCampaign", "url": "https://www.activecampaign.com/", "image": "activecampaign.svg"},
+{"title": "Mailchimp", "url": "https://mailchimp.com/", "image": "mailchimp.svg"},
+{"title": "Mailblue", "url": "https://mailblue.nl/", "image": "mailblue.svg"}
+]'
+}
 
 ::prose-gradient-heading
 Waarom voor [PopsUp] kiezen?
@@ -38,15 +44,24 @@ Bekijk en vergelijk direct de prestaties van jouw pop-up campagnes vanuit dit ov
 Complete code-vrijheid binnen je pop-up.
 
 #text
-Binnen de geïntegreerde code-editor kun je de HTML, style en Javascript van jouw pop-up volledig aanpassen.
+Binnen de geïntegreerde code-editor kun je de HTML, CSS en Javascript van jouw pop-up volledig aanpassen.
 
 #text
-Geen technische kennis? Geen probleem, wij doen het graag voor je [Meer informatie](mailto:info@popsup.nl)
+Geen technische kennis? Geen probleem, wij doen het graag voor je, [lees verder](/popup-laten-maken).
 ::
 
 ::prose-gradient-heading
-Ruime keuze uit verschillende [triggers!]
+Gebruik [triggers] om meer uit je campagne te halen.
 ::
 
-::trigger-bar{:triggers='[{"name": "Met vertraging", "icon": "ph:clock-countdown-duotone"}, {"name": "Pagina weergave", "icon": "ph:eye-duotone"},{"name": "Geplande weergave", "icon": "ph:calendar-check-duotone"},{"name": "Exit intent", "icon": "ph:sign-out-duotone"},{"name": "Na inactiviteit", "icon": "ph:hourglass-low-duotone"},{"name": "Scroll percentage", "icon": "ph:mouse-simple-duotone"},{"name": "In/uit-gesloten URL(s)", "icon": "ph:link-simple-duotone"}]'}
-::
+:trigger-bar{
+:triggers='[
+{"name": "Met vertraging", "icon": "ph:clock-countdown-duotone"},
+{"name": "Pagina weergave", "icon": "ph:eye-duotone"},
+{"name": "Geplande weergave", "icon": "ph:calendar-check-duotone"},
+{"name": "Exit intent", "icon": "ph:sign-out-duotone"},
+{"name": "Na inactiviteit", "icon": "ph:hourglass-low-duotone"},
+{"name": "Scroll percentage", "icon": "ph:mouse-simple-duotone"},
+{"name": "In/uit-gesloten URL(s)", "icon": "ph:link-simple-duotone"}
+]'
+}

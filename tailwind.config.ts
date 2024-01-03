@@ -136,7 +136,7 @@ export default {
     extend: {
       gridTemplateColumns: {
         content:
-          '[full-width-start] minmax(2rem, 1fr) [breakout-start] minmax(0, 100px) [content-large-start] minmax(0px, 250px) [content-start] min(100% - ((2rem)*2), 780px) [content-end] minmax(0px, 250px) [content-large-end] minmax(0, 100px) [breakout-end] minmax(2rem, 1fr) [full-width-end]'
+          '[full-width-start] minmax(1rem, 1fr) [breakout-start] minmax(0, 100px) [content-large-start] minmax(0px, 250px) [content-start] min(100% - ((1rem)*2), 780px) [content-end] minmax(0px, 250px) [content-large-end] minmax(0, 100px) [breakout-end] minmax(1rem, 1fr) [full-width-end]'
       },
       keyframes: {
         loadingBar: {

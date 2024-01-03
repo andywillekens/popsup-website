@@ -37,7 +37,7 @@
           class="inline-flex flex-col w-auto h-[2.5rem] sm:h-[3.7rem] md:h-[4.3rem] lg:h-[4.5rem] overflow-hidden">
           <template v-for="word in wordArray">
             <span
-              class="text-purple-400 inline flex-grow-0 justify-start animate-word-slider text-left w-full h-[2.5rem] sm:h-[3.7rem] md:h-[4.3rem] lg:h-[4.5rem]"
+              class="text-purple-500 inline flex-grow-0 justify-start animate-word-slider text-left w-full h-[2.5rem] sm:h-[3.7rem] md:h-[4.3rem] lg:h-[4.5rem]"
               >{{ word }}</span
             >
           </template> </span
@@ -51,7 +51,7 @@
       <!-- CTA -->
       <CoreButton
         to="https://app.popsup.nl/create-account"
-        label="Start gratis proefperiode"
+        label="Start jouw gratis proefperiode"
         tag="nuxt-link"
         theme="cta" />
     </section>
