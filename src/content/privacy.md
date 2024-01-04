@@ -20,8 +20,7 @@ Webtactic, gevestigd aan de Goudplevier 26,
 
 Goudplevier 26,\
 5165 KE, Waspik\
-support@popsup.nl\
-+31615652039
+support@popsup.nl
 
 ##### Persoonsgegevens die wij verwerken
 

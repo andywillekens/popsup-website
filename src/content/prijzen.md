@@ -8,14 +8,11 @@ navigation:
   order: 1
 ---
 
-# Een plan dat bij jou past.
-
-Hier komt informatie over de prijzen.
-
 :available-plans{
+:title="Een plan dat bij jou past."
 :plans='[
-{"name": "Met vertraging", "price": "20,-"},
-{"name": "Met vertraging", "price": "20,-"},
-{"name": "Met vertraging", "price": "20,-"}
+{"name": "Starter", "price": "7", "popups" : "1", "support": "basic"},
+{"name": "Plus", "price": "24", "featured": true, "tag": "Aanbevolen", "popups" : "5", "support": "extended"},
+{"name": "Pro", "price": "97", "popups" : "50", "support": "extended"}
 ]'
 }

@@ -16,4 +16,4 @@ Uiteindelijk blijft de broncode van de pop-up jouw eigendom! Ook als je deze nie
 
 #### Nieuwsgierig hoe wij te werk gaan?
 
-Neem contact op via info@popsup.nl of bel ons op [06-15652039](tel:0615652039).
+Neem contact op via info@popsup.nl.

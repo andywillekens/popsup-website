@@ -76,7 +76,7 @@
     }
   }
 
-  ul {
+  ul:not(.clearList) {
     #blogPage &,
     #contentPage & {
       @apply pl-8 mb-4 text-lg tracking-normal leading-relaxed;
@@ -216,6 +216,13 @@
       )
       [breakout-end] minmax(1rem, 1fr) [full-width-end];
     grid-column: full-width;
+  }
+
+  .animatedSwitch {
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to left, #8644a9 50%, transparent 50%);
+    transition: background-position 1s cubic-bezier(0.19, 1, 0.22, 1), color 0.2s ease;
   }
 
   .pause {
