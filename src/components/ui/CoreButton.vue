@@ -36,7 +36,7 @@
     if (props.theme === 'default') {
       return 'px-4 py-2 !text-white bg-purple-500 hover:bg-purple-600 !border-0'
     } else if (props.theme === 'cta') {
-      return 'px-6 py-3 text-lg bg-purple-500 text-white hover:bg-purple-600 hover:text-white'
+      return 'px-6 py-3 text-lg bg-purple-500 text-white hover:bg-purple-600 hover:text-white shadow-lg shadow-purple-600/40'
     } else if (props.theme === 'cta-alt') {
       return 'px-4 py-2 text-lg bg-purple-400/20 text-purple-600 hover:bg-purple-600 hover:text-white'
     } else if (props.theme === 'danger') {

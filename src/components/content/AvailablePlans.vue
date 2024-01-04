@@ -36,7 +36,7 @@
         :class="
           plan.featured
             ? 'shadow-purple-600/40 border-purple-200 z-20'
-            : 'shadow-gray-700/5 border-gray-100 z-10'
+            : 'shadow-gray-700/10 border-gray-100 z-10'
         "
         class="flex flex-col gap-4 border bg-white rounded-xl p-4 shadow-2xl relative flex-shrink-0 flex-grow sm:flex-grow-0">
         <!-- Head -->
