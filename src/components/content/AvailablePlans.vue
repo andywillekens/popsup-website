@@ -1,6 +1,6 @@
 <script setup lang="ts">
   export interface Plans {
-    title: string
+    title?: string
     plans: [
       {
         name: string
