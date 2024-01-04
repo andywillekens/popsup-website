@@ -1,7 +1,6 @@
 <script setup lang="ts">
   export interface Plans {
     title: string
-    remark: string
     plans: [
       {
         name: string

@@ -219,8 +219,6 @@
   }
 
   .animatedSwitch {
-    background-repeat: no-repeat;
-    background-size: 200% 100%;
     background-image: linear-gradient(to left, #8644a9 50%, transparent 50%);
     transition: background-position 1s cubic-bezier(0.19, 1, 0.22, 1), color 0.2s ease;
   }
