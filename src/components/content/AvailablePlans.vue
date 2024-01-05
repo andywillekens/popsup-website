@@ -30,7 +30,8 @@
       state2="Jaarlijks"
       v-model="yearlyBilling" />
 
-    <section class="flex justify-center gap-2 flex-wrap lg:gap-5 xl:gap-10 text-left">
+    <section
+      class="w-full flex flex-row items-center justify-center gap-2 flex-wrap lg:gap-5 xl:gap-10 text-left">
       <div
         v-for="plan in plans"
         :class="
@@ -38,7 +39,7 @@
             ? 'shadow-purple-600/40 border-purple-200 z-20'
             : 'shadow-gray-700/10 border-gray-100 z-10'
         "
-        class="flex flex-col gap-4 border bg-white rounded-xl p-4 shadow-2xl relative flex-shrink-0 flex-grow sm:flex-grow-0">
+        class="flex flex-col gap-4 max-w-96 border bg-white rounded-xl p-4 shadow-2xl relative flex-shrink-0 flex-grow sm:flex-grow-0">
         <!-- Head -->
         <div class="flex justify-between">
           <h2 class="!m-0 text-xl">{{ plan.name }}</h2>

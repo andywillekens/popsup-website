@@ -86,6 +86,13 @@
     }
   }
 
+  ol:not(.clearList) {
+    #blogPage &,
+    #contentPage & {
+      @apply pl-8 mb-4 text-lg tracking-normal leading-relaxed list-decimal;
+    }
+  }
+
   img {
     #blogPage &,
     #contentPage & {

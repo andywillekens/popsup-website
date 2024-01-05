@@ -1,5 +1,5 @@
 <template>
-  <main class="grid-cols-content full-width overflow-hidden">
+  <main class="grid-cols-content full-width">
     <slot />
   </main>
 </template>

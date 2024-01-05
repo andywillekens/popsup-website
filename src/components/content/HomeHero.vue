@@ -26,7 +26,7 @@
 </script>
 <template>
   <section
-    class="flex flex-col md:flex-row breakout justify-start 2xl:justify-around items-center gap-10 mt-8 sm:mt-16 lg:mt-32">
+    class="flex flex-col md:flex-row breakout xl:content-large justify-start 2xl:justify-around items-center gap-10 mt-8 sm:mt-16 lg:mt-32">
     <section class="w-full md:max-w-lg lg:max-w-2xl flex flex-col gap-8 items-start flex-shrink-0">
       <!-- Payoff -->
       <p
@@ -55,7 +55,8 @@
         tag="nuxt-link"
         theme="cta" />
     </section>
-    <section class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0">
+    <section
+      class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0 [mask-image:none] xl:[mask-image:_linear-gradient(to_right,_black_calc(100%-200px),transparent_100%)] 2xl:[mask-image:none]">
       <ImageViewer :images="imageArr" />
     </section>
   </section>
