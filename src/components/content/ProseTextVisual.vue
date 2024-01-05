@@ -42,7 +42,8 @@
         </div>
         <NuxtImg
           class="shrink-0 w-full md:w-1/2 h-full rounded-lg shadow-lg"
-          :src="`/assets/images/${image}`" />
+          :src="`/assets/images/${image}`"
+          loading="lazy" />
       </div>
     </section>
   </section>

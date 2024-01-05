@@ -55,7 +55,9 @@
     <!-- Logo and text container -->
     <div class="flex flex-col gap-4">
       <!-- Logo -->
-      <NuxtLink class="logo" to="/"><Logo :type="type === 'main' ? 'dark' : 'white'" /></NuxtLink>
+      <NuxtLink class="logo" to="/" title="Naar de homepagina"
+        ><Logo :type="type === 'main' ? 'dark' : 'white'" alt="PopsUp Logo"
+      /></NuxtLink>
       <!-- Subtext -->
       <p v-if="type === 'footer'" class="w-full max-w-[75%] lg:max-w-lg">
         Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website,

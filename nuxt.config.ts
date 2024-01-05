@@ -17,6 +17,10 @@ export default defineNuxtConfig({
       'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.',
     indexable: true
   },
+  ogImage: {
+    enabled: true,
+    fonts: ['Poppins:400', 'Poppins:500', 'Poppins:700']
+  },
   alias: {
     '@': resolve(__dirname, './src')
   },

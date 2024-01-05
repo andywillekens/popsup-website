@@ -1,14 +1,29 @@
 <script setup type="ts">
   useHead({
-    titleTemplate: '%s %separator %siteName'
+    titleTemplate: '%s %separator %siteName',
+    htmlAttrs: {
+      lang: 'en'
+    },
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/favicon.svg'
+      }
+    ]
+  })
+  useSeoMeta({
+    ogImage: '[og:image]',
+    twitterTitle: '[twitter:title]',
+    twitterDescription: '[twitter:description]',
+    twitterImage: '[twitter:image]',
+    twitterCard: 'summary'
   })
   defineOgImageComponent('Default', {
     headline: '%siteName',
     title: 'De pop-up tool uit Nederland',
     description: 'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website of webshop.'
   })
-
-  console.log(this)
 </script>
 <template>
   <!-- Header -->
