@@ -25,7 +25,7 @@ Veelgestelde [vragen]
 
 <details>
 <summary>Wat is een pop-up campagne?</summary>
-Een pop-up, pop-up formulier refereert naar een pop-up campagne. Binnen PopsUp kun je verschillende pop-up campagnes tegelijkertijd laten draaien. Deze kun je live zetten of uitschakelen.
+Een pop-up of pop-up formulier refereert naar een pop-up campagne. Binnen PopsUp kun je verschillende pop-up campagnes tegelijkertijd laten draaien. Deze kun je live of offline zetten.
 </details>
 
 <details>
@@ -35,7 +35,7 @@ Om van de functionaliteiten gebruik te blijven maken raden we aan om een plan te
 
 <details>
 <summary>Kun je op ieder moment opzeggen?</summary>
-Ja, je kunt op elk moment je abbonnement opzeggen. Je blijft toegang houden tot je account.
+Ja, je kunt op elk moment je abonnement opzeggen. Je blijft toegang houden tot je account.
 </details>
 
 <details>

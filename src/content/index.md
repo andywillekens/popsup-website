@@ -47,7 +47,10 @@ Complete code-vrijheid binnen je pop-up.
 Binnen de geïntegreerde code-editor kun je de HTML, CSS en Javascript van jouw pop-up volledig aanpassen.
 
 #text
-Geen technische kennis? Geen probleem, wij doen het graag voor je, [lees verder](/popup-laten-maken).
+Geen technische kennis? Geen probleem, wij nemen het werk graag uit handen.
+
+#text
+[Meer informatie](/popup-laten-maken)
 ::
 
 ::prose-gradient-heading

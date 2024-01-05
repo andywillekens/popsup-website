@@ -9,17 +9,17 @@ layout: blog
 
 Naast web development heb ik ook een passie voor Graphic Design. Althans, laten we het er op houden dat ik mijn weg prima kan vinden in het Adobe software pakket. Naast dat ik hier bedreven in ben, vind ik het ook nog eens leuk om te doen!
 
-##### Gaan met die banaan!
+##### Het process
 
-Oké, nu de naam PopsUp beslist is moet deze Pop-up tool een gezicht krijgen. Ik heb een vel papier uit de printer getrokken en ben direct gaan tekenen wat in mij opkwam.
+Oké, nu [de naam PopsUp beslist is](/blog/een-idee-is-geboren) moet deze Pop-up tool een gezicht krijgen. Ik heb een vel papier uit de printer getrokken en ben gaan schrijven wat in mij opkwam.
 
 Na wat inspiratie te hebben gevonden, heb ik Illustrator geopend en ben ik wat ideeën gaan uitwerken.
 
 ![Icoon schetsen en woordmerk in illustrator](/assets/images/blog/lets-get-visual_1.jpg 'De eerste uitgewerkte concepten')
 
-##### Of toch niet?
+##### Itereren, itereren en nog eens itereren..
 
-Ik had inmiddels de website al opgezet en was met wat kleuren aan het testen. Helaas matchte het logo niet lekker met de frisse kleuren die ik wilde gaan gebruiken.
+Ik had inmiddels de website al opgezet en was met wat kleuren aan het testen. Het logo matchte niet lekker met de frisse kleuren die ik wilde gaan gebruiken.
 
 Dus terug naar de tekentafel met de volgende verbeteringen in gedachte:
 
@@ -40,10 +40,6 @@ Het lettertype Poppins sprak mij het meeste aan, precies wat ik zocht! Het beeld
     <cite>~ Timothy Samara</cite>
 </blockquote>
 
-Ik heb er flink wat energie in gestoken maar het eindresultaat mag er zijn. De weg naar het logo toe is belangrijker dan het logo zelf.
-
-Wow.. Diep.
-
-Anyhow, hieronder het eindresultaat. met weer super veel kennis op zak, op naar de volgende taak!
+Er is flink wat energie in gaan zitten maar het eindresultaat mag er zijn. Met weer super veel kennis op zak, op naar de volgende taak!
 
 ![Het logo in zwart/wit en kleur](/assets/images/blog/lets-get-visual_3.jpg 'Het logo in zwart wit en kleur')

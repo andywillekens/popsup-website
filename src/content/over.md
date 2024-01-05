@@ -11,7 +11,7 @@ navigation:
 # Over PopsUp
 
 \
-Onze reis begon met een eenvoudige gedachte: waarom niet een product ontwikkelen op basis van de kennis die we in de afgelopen tien jaar hebben opgedaan? Het was het startpunt van een avontuur dat leidde tot de geboorte van deze unieke tool, PopsUp.
+Onze reis begon met een eenvoudige gedachte: waarom niet een product ontwikkelen op basis van de kennis die we in de afgelopen tien jaar hebben opgedaan? Het was het startpunt van een avontuur dat leidde tot [de geboorte](blog/een-idee-is-geboren) van deze unieke tool, PopsUp.
 
 De vonk ontstond toen we besloten een tool te creëren waarmee we op een eenvoudige en snelle manier aangepaste pop-up formulieren konden bouwen. Ons doel was simpel: efficiëntie vergroten en het ontwikkelproces optimaliseren. Na alle inspanningen slaagden we erin om een "proof-of-concept" te ontwikkelen waarmee we moeiteloos een enkel JavaScript-bestand kunnen genereren, rechtstreeks vanuit een paar bronbestanden.
 
@@ -19,4 +19,4 @@ Wat als we deze tool niet alleen voor onszelf hielden, maar ook beschikbaar make
 
 ##### In het kort:
 
-PopsUp is een SaaS-oplossing ontworpen om jou te helpen bij het bouwen van opvallende pop-up formulieren, zonder gedoe.
+PopsUp is een SaaS-oplossing ontworpen om jou te helpen bij het bouwen van opvallende pop-up formulieren, zonder gedoe en met een [zachte prijs](/prijzen).

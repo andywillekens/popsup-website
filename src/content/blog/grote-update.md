@@ -30,4 +30,6 @@ De paarse kleur is wel gebleven maar dan iets subtieler.
 
 ###### Livegang
 
-Vanaf 23 januari is het mogelijk om een account aan te maken. Houdt de website in de gaten voor toekomstige updates.
+Vanaf 23 januari is het mogelijk om een account aan te maken. Je kunt binnen de applicatie een [plan](/prijzen) kiezen dat bij jou past.
+
+Houdt de website in de gaten voor toekomstige updates.

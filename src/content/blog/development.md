@@ -9,7 +9,7 @@ layout: blog
 
 Het was even stil, maar ik heb niet stilgezeten! Ik heb achter de schermen hard gewerkt aan het bouwen van de applicatie, het koppelen van de database en het optimaliseren van de API.
 
-Is PopsUp dan klaar? Niet klaar, wel een stuk verder in de ontwikkelsfase! Er zijn nog een bak aan features die er in moeten, maar de meest cruciale functionaliteiten werken!
+Is PopsUp dan klaar? Niet klaar, [wel een stuk verder](/blog/grote-update) in de ontwikkelsfase! Er zijn nog een bak aan features die er in moeten, maar de meest cruciale functionaliteiten werken!
 
 ### Cruciale functies?
 
@@ -24,11 +24,9 @@ Onder deze functionaliteiten vallen:
 - Een script om de popup te plaatsen
 - 6 handige triggers (meer in het vooruitzicht)
 
-De maanden April en Mei ga ik gebruiken om de ontwikkelingen in kaart te brengen, welke features er in komen en wanneer. Een roadmap!
+Houd de website in de gaten voor toekomstige updates!
 
-Houd de website dus in de gaten voor toekomstige updates!
-
-P.S. Hier nog wat screenshots van de huidige staat van de applicatie (28-03-2023)
+P.S. Hier nog wat screenshots van de huidige staat van de applicatie (28 maart 2023)
 
 ![Een overzicht van al je popups.](/assets/images/blog/development_1.jpg)
 
