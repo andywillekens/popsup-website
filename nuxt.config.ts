@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'nuxt-icon'
   ],
+  sitemap: {
+    strictNuxtContentPaths: true
+  },
   site: {
     url: 'https://popsup.nl',
     name: 'PopsUp',
