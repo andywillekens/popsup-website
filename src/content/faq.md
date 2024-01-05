@@ -1,6 +1,6 @@
 ---
 title: 'Veelgestelde vragen'
-description: 'Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren in je website, webshop of webapplicatie.'
+description: 'Vind hier de antwoorden op je vragen.'
 layout: page
 navigation:
   title: 'FAQ'

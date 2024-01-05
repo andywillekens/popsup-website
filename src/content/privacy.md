@@ -1,6 +1,6 @@
 ---
 title: 'Privacy'
-description: 'Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren in je website, webshop of webapplicatie.'
+description: 'Wij nemen jouw privacy serieus.'
 layout: page
 navigation:
   title: 'Privacy'

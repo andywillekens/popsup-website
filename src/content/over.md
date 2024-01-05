@@ -1,6 +1,6 @@
 ---
 title: 'Over'
-description: 'Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren in je website, webshop of webapplicatie.'
+description: 'PopsUp is ontworpen om jou te helpen bij het bouwen van opvallende pop-up formulieren.'
 layout: page
 navigation:
   title: 'Over'

@@ -11,10 +11,11 @@ export default defineNuxtConfig({
     'nuxt-icon'
   ],
   site: {
-    url: 'https://popsup.nl',
+    url: 'http://localhost:3000',
     name: 'PopsUp',
     description:
-      'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.'
+      'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.',
+    indexable: true
   },
   alias: {
     '@': resolve(__dirname, './src')

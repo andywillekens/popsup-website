@@ -1,6 +1,6 @@
 ---
-title: 'De Pop-up tool uit Nederland'
-description: 'Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren in je website, webshop of webapplicatie.'
+title: 'De pop-up tool uit Nederland'
+description: 'Makkelijk en snel een professionele pop-up op je website integreren'
 layout: home
 navigation: false
 ---

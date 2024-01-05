@@ -1,6 +1,7 @@
 ---
 title: Grote update!
-description: Het was even stil, maar ik heb niet stilgezeten! Ik heb achter de schermen hard gewerkt aan het bouwen van de applicatie, het koppelen van de database en het optimaliseren van de API.
+description: De afgelopen maanden is er hard gewerkt om de software te professionaliseren en er komt deze maand een grote update aan!
+ogDescription: Dit is een OG test
 date: '2024-01-05'
 author: 'Andy Willekens'
 head: true

@@ -1,6 +1,6 @@
 ---
 title: 'Blog'
-description: 'Dit is de blog pagina'
+description: 'Lees hier alles over de ontwikkeling van PopsUp, een unieke kijk in de keuken.'
 head: true
 layout: page
 navigation:

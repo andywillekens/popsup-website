@@ -1,6 +1,6 @@
 ---
 title: 'Pop-up laten maken'
-description: 'Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren in je website, webshop of webapplicatie.'
+description: 'Liever niet zelf met HTML, CSS en Javascript aan de gang?'
 layout: page
 navigation: false
 ---

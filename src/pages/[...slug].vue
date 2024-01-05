@@ -2,6 +2,13 @@
   useHead({
     titleTemplate: '%s %separator %siteName'
   })
+  defineOgImageComponent('Default', {
+    headline: '%siteName',
+    title: 'De pop-up tool uit Nederland',
+    description: 'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website of webshop.'
+  })
+
+  console.log(this)
 </script>
 <template>
   <!-- Header -->

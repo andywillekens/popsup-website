@@ -1,6 +1,6 @@
 ---
 title: 'Contact'
-description: 'Met PopsUp kun je makkelijk en snel professionele Pop-ups bouwen en integreren in je website, webshop of webapplicatie.'
+description: 'Heb je vragen of wil je een afspraak inplannen?'
 layout: page
 navigation:
   title: 'Contact'
