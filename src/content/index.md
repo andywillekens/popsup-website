@@ -23,7 +23,7 @@ Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je we
 Waarom voor [PopsUp] kiezen?
 ::
 
-::prose-text-visual{image="popsup_dash_zoomed.png" :pull=true}
+::prose-text-visual{image="popsup_dash_zoomed.jpg" :pull=true}
 #title
 Overzichtelijk dashboard met statistieken.
 
@@ -31,7 +31,7 @@ Overzichtelijk dashboard met statistieken.
 Je hebt toegang tot de belangrijkste meetgegevens, zoals het aantal inschrijvers, vertoningen, conversies en andere cruciale prestatie-indicatoren.
 ::
 
-::prose-text-visual{image="popsup_overview_zoomed.png" :push=true}
+::prose-text-visual{image="popsup_overview_zoomed.jpg" :push=true}
 #title
 Beheer al je campagnes in één overzicht.
 
@@ -39,7 +39,7 @@ Beheer al je campagnes in één overzicht.
 Bekijk en vergelijk direct de prestaties van jouw pop-up campagnes vanuit dit overzicht, hier zijn de belangrijkste statistieken direct inzichtelijk.
 ::
 
-::prose-text-visual{image="popsup_editor_zoomed.png" :pull=true}
+::prose-text-visual{image="popsup_editor_zoomed.jpg" :pull=true}
 #title
 Complete code-vrijheid binnen je pop-up.
 

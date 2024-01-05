@@ -19,13 +19,13 @@ Na het implementeren van integraties in PopsUp kun jij jouw pop-up formulier met
 
 Alle data komt dus netjes binnen in jouw e-mailmarketing software.
 
-![Integraties binnen PopsUp](/assets/images/blog/grote-update_1.png 'Koppelen met jouw favoriete e-mailmarketing software')
+![Integraties binnen PopsUp](/assets/images/blog/grote-update_1.jpg 'Koppelen met jouw favoriete e-mailmarketing software')
 
 ###### Nieuw jasje
 
 Zoals je ziet heeft niet alleen de website, maar ook de applicatie een opfrisbeurt gekregen. De oude stijl was redelijk gedateerd en paste niet meer bij de huidige visie.
 
-![De oude website van PopsUp](/assets/images/blog/grote-update_2.png 'Iets te veel paars..')
+![De oude website van PopsUp](/assets/images/blog/grote-update_2.jpg 'Iets te veel paars..')
 De paarse kleur is wel gebleven maar dan iets subtieler.
 
 ###### Livegang
