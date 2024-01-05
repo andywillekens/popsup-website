@@ -1,4 +1,11 @@
 <script setup lang="ts">
+  useHead({
+    templateParams: {
+      blogCategory: 'Blog'
+    },
+    titleTemplate: '%s %separator %blogCategory %separator %siteName'
+  })
+
   const route = useRoute()
   const { data } = await useAsyncData('blog', () => queryContent(route.fullPath).findOne())
 </script>
