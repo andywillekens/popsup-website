@@ -52,7 +52,8 @@ export default {
         700: '#334b71',
         800: '#2d415f',
         900: '#2a3850',
-        950: '#1c2536'
+        950: '#1c2536',
+        960: '#161e2b'
       },
       green: {
         50: '#edfff9',
@@ -61,7 +62,7 @@ export default {
         300: '#70ffd8',
         400: '#2bfdc1',
         500: '#00ffb7',
-        600: '#00c085',
+        600: '#10d79e',
         700: '#00966b',
         800: '#067557',
         900: '#076049',
@@ -133,6 +134,10 @@ export default {
       '7xl': '4.375rem'
     },
     extend: {
+      gridTemplateColumns: {
+        content:
+          '[full-width-start] minmax(1rem, 1fr) [breakout-start] minmax(0, 100px) [content-large-start] minmax(0px, 250px) [content-start] min(100% - ((1rem)*2), 780px) [content-end] minmax(0px, 250px) [content-large-end] minmax(0, 100px) [breakout-end] minmax(1rem, 1fr) [full-width-end]'
+      },
       keyframes: {
         loadingBar: {
           '0%': { transform: 'translateX(-80%)' },
@@ -144,6 +149,17 @@ export default {
           '0%': { width: '100%' },
           '50%': {},
           '100%': { width: '0' }
+        },
+        slidewords: {
+          '0%': { transform: 'translateY(0)' },
+          '10%': { transform: 'translateY(-112%)' },
+          '25%': { transform: 'translateY(-100%)' },
+          '35%': { transform: 'translateY(-212%)' },
+          '50%': { transform: 'translateY(-200%)' },
+          '60%': { transform: 'translateY(-312%)' },
+          '75%': { transform: 'translateY(-300%)' },
+          '85%': { transform: 'translateY(-412%)' },
+          to: { transform: 'translateY(-400%)' }
         },
         scaleIn: {
           '0%': { transform: 'scale(.9)', opacity: '0' },
@@ -161,6 +177,19 @@ export default {
           '0%': { 'box-shadow': '0 0 0 0 rgba(70, 73, 229, 0.4)' },
           '70%': { 'box-shadow': '0 0 0 10px rgba(70, 73, 229, 0)' },
           '100%': { 'box-shadow': '0 0 0 0 rgba(70, 73, 229, 0)' }
+        },
+        heartBeat: {
+          '0%': { transform: 'scale(1)' },
+          '10%': { transform: 'scale(1.2)' },
+          '20%': { transform: 'scale(1)' },
+          '25%': { transform: 'scale(1)' },
+          '35%': { transform: 'scale(1.2)' },
+          '45%': { transform: 'scale(1)' }
+        },
+
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' }
         }
       },
       animation: {
@@ -168,7 +197,10 @@ export default {
         'dialog-time': 'dialogTimer 5s normal linear 1',
         'scale-in-out': 'scaleIn 5s normal ease-in 1',
         'pulsate-slow-green': 'pulsateGreen 2s infinite',
-        'pulsate-slow-purple': 'pulsatePurple 2s infinite'
+        'pulsate-slow-purple': 'pulsatePurple 2s infinite',
+        'heart-beat': 'heartBeat 1.2s ease-in-out infinite',
+        'word-slider': 'slidewords 8s cubic-bezier(.16,1,.3,1) infinite',
+        'infinite-scrolling-bar': 'infinite-scroll 50s linear infinite'
       }
     }
   }

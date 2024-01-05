@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full flex flex-col items-center justify-center px-8">
+  <main id="contentPage" class="content my-16">
     <slot />
   </main>
 </template>
