@@ -11,7 +11,7 @@ Er komt deze maand een grote update aan, want..
 
 ### 23 januari 2024 gaat PopsUp live!
 
-De afgelopen maanden is er hard gewerkt om de software te proffesionaliseren. De hele vormgeving is op de schop gegaan, de code is opgeschoond en er zijn flink wat test's gedaan om ervoor te zorgen dat alles goed gaat.
+De afgelopen maanden is er hard gewerkt om de software te professionaliseren. De hele vormgeving is op de schop gegaan, de code is opgeschoond en er zijn flink wat test's gedaan om ervoor te zorgen dat alles goed gaat.
 
 ###### Integraties
 

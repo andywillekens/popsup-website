@@ -18,12 +18,12 @@ Deze software gaat jouw campagne(s) naar een hoger niveau tillen door gebruik te
 
 <details>
 <summary>Is PopsUp gratis te gebruiken?</summary>
-De eerste 14 dagen kun je de software gratis en zonder betaalmethode uitproberen. Na deze periode dien je een abonnement af te nemen. Wellicht dat PopsUp een gratis plan krijgt in de toekomst.
+De eerste 14 dagen kun je de software gratis en zonder betaalmethode uitproberen. Na deze periode dien je een abonnement af te nemen.
 </details>
 
 <details>
 <summary>Hoe gebruik ik PopsUp</summary>
-Binnen PopsUp maak je een campagne aan, deze genereerd een uniek script wat je vervolgens op iedere pagina binnen je website moet plaatsen. Als dit is gebeurt kun je de campagne binnen PopsUp live zetten. Afhankelijk van je instellingen zal de pop-up getoond worden op jouw website.
+Binnen PopsUp maak je een campagne aan, deze genereert een uniek script wat je vervolgens op iedere pagina binnen je website moet plaatsen. Als dit is gebeurt kun je de campagne binnen PopsUp live zetten. Afhankelijk van je instellingen zal de pop-up getoond worden op jouw website.
 </details>
 
 <details>

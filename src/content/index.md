@@ -41,10 +41,10 @@ Bekijk en vergelijk direct de prestaties van jouw pop-up campagnes vanuit dit ov
 
 ::prose-text-visual{image="popsup_editor_zoomed.jpg" :pull=true}
 #title
-Complete code-vrijheid binnen je pop-up.
+Complete code vrijheid binnen je pop-up.
 
 #text
-Binnen de geïntegreerde code-editor kun je de HTML, CSS en Javascript van jouw pop-up volledig aanpassen.
+Binnen de geïntegreerde code editor kun je de HTML, CSS en Javascript van jouw pop-up volledig aanpassen.
 
 #text
 Geen technische kennis? Geen probleem, wij nemen het werk graag uit handen.
