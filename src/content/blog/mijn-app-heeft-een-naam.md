@@ -1,5 +1,5 @@
 ---
-title: Eindelijk, mijn app heeft een naam!
+title: Mijn app heeft een naam!
 description: Al lange tijd droom ik om een eigen product op de markt te brengen, maar hoe en wat, dat wist ik niet. Tot ik enige tijd geleden dacht, waarom ontwikkel ik niet een product op basis van de opgedane kennis van de aflopen tien jaar.
 date: '2023-01-12'
 author: 'Andy Willekens'
