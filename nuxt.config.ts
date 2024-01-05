@@ -6,6 +6,12 @@ export default defineNuxtConfig({
   alias: {
     '@': resolve(__dirname, './src')
   },
+  app: {
+    head: {
+      charset: 'utf-8',
+      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+    }
+  },
   srcDir: 'src',
   tailwindcss: {
     cssPath: '~/styles/tailwind.scss'
