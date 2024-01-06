@@ -14,8 +14,8 @@
   })
   useSeoMeta({
     ogImage: '[og:image]',
-    twitterTitle: '[twitter:title]',
-    twitterDescription: '[twitter:description]',
+    twitterTitle: 'De pop-up tool uit Nederland',
+    twitterDescription: 'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website of webshop.',
     twitterImage: '[twitter:image]',
     twitterCard: 'summary'
   })

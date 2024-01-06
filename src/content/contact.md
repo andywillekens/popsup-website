@@ -11,7 +11,8 @@ navigation:
 
 # Contact
 
-Heb je vragen of wil je een afspraak inplannen? Stuur dan een mail naar [info@popsup.nl](mailto:info@popsup.nl) of bel [06-15652039](tel:0615652039).
+Heb je vragen of wil je een afspraak inplannen?\
+Stuur dan een mail naar [info@popsup.nl](mailto:info@popsup.nl) of bel [06-15652039](tel:0615652039).
 
 #### Bedrijfs gegevens
 

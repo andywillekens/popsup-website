@@ -4,8 +4,9 @@ description: 'Een plan dat bij jou past, voor een zachte prijs.'
 layout: price
 navigation:
   title: 'Prijzen'
-  location: main
+  location: ['main', 'footer']
   order: 1
+  category: Informatie
 ---
 
 :available-plans{
