@@ -54,7 +54,8 @@
         :src="image.url"
         :title="image.title"
         class="row-[1] col-[1] relative transition-all duration-500"
-        sizes="610px sm:735px md:680px" />
+        sizes="604px sm:732px md:680px"
+        :loading="imageIdx === currentImage ? undefined : 'lazy'" />
       <div
         :class="imageIdx === currentImage ? 'translate-y-0 z-20' : 'translate-y-[100px] z-10'"
         class="absolute bottom-4 right-4 bg-white/95 tracking-normal shadow-sm shadow-black/10 text-mirage-900 font-head font-medium z-30 text-xs py-0 px-2 rounded-md transition-all duration-500">
