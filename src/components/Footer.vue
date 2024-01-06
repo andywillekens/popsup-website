@@ -17,7 +17,7 @@
       "
       small="Geen betaalmethode nodig" />
     <section class="full-width grid-cols-content bg-mirage-950 self-end pt-16 pb-8">
-      <section class="content-large grid border-b border-solid pb-8 border-gray-950">
+      <section class="content-large grid border-b border-solid pb-8 border-white/10">
         <CoreNavigation type="footer" />
       </section>
       <section
