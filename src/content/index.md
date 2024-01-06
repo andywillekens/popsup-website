@@ -31,7 +31,7 @@ Overzichtelijk dashboard met statistieken.
 Je hebt toegang tot de belangrijkste meetgegevens, zoals het aantal inschrijvers, vertoningen, conversies en andere cruciale prestatie-indicatoren.
 ::
 
-::prose-text-visual{image="popsup_overview_zoomed.jpg" image-title="De pop-up campagnes in een overzicht" :push=true}
+::prose-text-visual{image="popsup_overview_zoomed.jpg" image-title="Jouw pop-up campagnes in een overzicht" :push=true}
 #title
 Beheer al je campagnes in één overzicht.
 
