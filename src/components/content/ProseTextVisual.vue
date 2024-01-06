@@ -36,7 +36,8 @@
           :title="imageTitle"
           class="shrink-0 w-full md:w-1/2 h-full rounded-lg shadow-lg"
           :src="`/assets/images/${image}`"
-          sizes="690px md:424px" />
+          sizes="690px md:424px"
+          loading="lazy" />
       </div>
     </section>
   </section>
