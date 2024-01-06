@@ -14,6 +14,9 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-0GQLHD0016'
   },
+  sitemap: {
+    strictNuxtContentPaths: true
+  },
   site: {
     url: 'https://popsup.nl',
     name: 'PopsUp',
