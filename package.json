@@ -19,6 +19,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.10.3"
+    "@nuxtjs/tailwindcss": "^6.10.3",
+    "@vercel/speed-insights": "^1.0.2"
   }
 }
