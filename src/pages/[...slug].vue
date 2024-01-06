@@ -15,14 +15,14 @@
   useSeoMeta({
     ogImage: '[og:image]',
     twitterTitle: 'De pop-up tool uit Nederland',
-    twitterDescription: 'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website of webshop.',
+    twitterDescription: 'Professionele pop-up formulieren bouwen en integreren in je website of webshop.',
     twitterImage: '[twitter:image]',
     twitterCard: 'summary'
   })
   defineOgImageComponent('Default', {
     headline: '%siteName',
     title: 'De pop-up tool uit Nederland',
-    description: 'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website of webshop.'
+    description: 'Professionele pop-up formulieren bouwen en integreren in je website of webshop.'
   })
 </script>
 <template>

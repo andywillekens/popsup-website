@@ -60,8 +60,8 @@
       /></NuxtLink>
       <!-- Subtext -->
       <p v-if="type === 'footer'" class="w-full max-w-[75%] lg:max-w-lg">
-        Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website,
-        webshop of webapplicatie.
+        Professionele pop-up formulieren bouwen en integreren in je website, webshop of
+        webapplicatie.
       </p>
     </div>
     <div v-if="type === 'main'" class="hidden md:flex">

@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     url: 'https://popsup.nl',
     name: 'PopsUp',
     description:
-      'Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.',
+      'Professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.',
     indexable: true
   },
   ogImage: {

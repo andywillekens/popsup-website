@@ -6,7 +6,7 @@ navigation: false
 ---
 
 ::home-hero{.breakout payoff="Boost je X met de pop-up tool uit Nederland." words="sales, conversie, campagne, omzet, sales"}
-Makkelijk en snel professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.
+Professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.
 ::
 
 :integration-bar{
