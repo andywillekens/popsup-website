@@ -11,12 +11,9 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-gtag'
   ],
-<<<<<<< HEAD
-=======
   gtag: {
     id: 'G-0GQLHD0016'
   },
->>>>>>> origin/development
   sitemap: {
     strictNuxtContentPaths: true
   },
