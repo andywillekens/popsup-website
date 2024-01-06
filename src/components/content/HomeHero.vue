@@ -49,11 +49,11 @@
         <ContentSlot :use="$slots.default" unwrap="p" />
       </h1>
       <!-- CTA -->
-      <CoreButton
+      <!-- <CoreButton
         to="https://app.popsup.nl/create-account"
         label="Start jouw gratis proefperiode"
         tag="nuxt-link"
-        theme="cta" />
+        theme="cta" /> -->
     </section>
     <section
       class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0 [mask-image:none] xl:[mask-image:_linear-gradient(to_right,_black_calc(100%-200px),transparent_100%)] 2xl:[mask-image:none]">

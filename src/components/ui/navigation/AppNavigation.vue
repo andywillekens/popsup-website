@@ -7,11 +7,11 @@
       label="Inloggen"
       tag="nuxt-link"
       theme="alt-grey" />
-    <CoreButton
+    <!-- <CoreButton
       class="!text-base"
       to="https://app.popsup.nl/create-account"
       label="Start proefperiode"
       tag="nuxt-link"
-      theme="cta-alt" />
+      theme="cta-alt" /> -->
   </div>
 </template>

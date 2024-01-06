@@ -3,9 +3,10 @@ title: 'Over'
 description: 'PopsUp is ontworpen om jou te helpen bij het bouwen van opvallende pop-up formulieren.'
 layout: page
 navigation:
-  title: 'Over'
-  location: footer
+  title: 'Over ons'
+  location: ['main', 'footer']
   category: Bedrijf
+  order: 2
 ---
 
 # Over PopsUp
@@ -19,4 +20,4 @@ Wat als we deze tool niet alleen voor onszelf hielden, maar ook beschikbaar make
 
 ##### In het kort:
 
-PopsUp is een Software as a Service (SaaS), ontworpen om jou te helpen bij het bouwen van opvallende pop-up formulieren, zonder gedoe en met een [zachte prijs](/prijzen).
+PopsUp is een Software as a Service (SaaS), ontworpen om jou te helpen bij het bouwen van opvallende pop-up formulieren, zonder gedoe en tegen een [zachte prijs](/prijzen).

@@ -5,9 +5,8 @@ head: true
 layout: page
 navigation:
   title: 'Blog'
-  location: ['main', 'footer']
+  location: 'footer'
   category: Bedrijf
-  order: 2
 ---
 
 # Blog
