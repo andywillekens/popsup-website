@@ -54,7 +54,7 @@ Geen technische kennis? Geen probleem, wij nemen het werk graag uit handen.
 ::
 
 ::prose-gradient-heading
-Gebruik [triggers] om meer uit je campagne te halen.
+Pop-up [triggers] instellen was nog nooit zó makkelijk.
 ::
 
 :trigger-bar{
