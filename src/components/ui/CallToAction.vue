@@ -25,6 +25,7 @@
       {{ title }}
     </p>
     <div class="flex flex-col items-center gap-1">
+      <CoreButton to="/blog/grote-update" label="Meer informatie" tag="nuxt-link" theme="cta" />
       <!-- <CoreButton
         to="https://app.popsup.nl/create-account"
         label="Start gratis proefperiode"
@@ -43,6 +44,7 @@
         {{ title }}
       </p>
       <div class="flex flex-col items-center gap-1 flex-shrink-0">
+        <CoreButton to="/blog/grote-update" label="Meer informatie" tag="nuxt-link" theme="cta" />
         <!-- <CoreButton
           to="https://app.popsup.nl/create-account"
           label="Start gratis proefperiode"

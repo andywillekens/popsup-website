@@ -6,6 +6,7 @@
       <ContentSlot :use="$slots.default" unwrap="p" />
     </p>
     <div class="flex flex-col items-center gap-1">
+      <CoreButton to="/blog/grote-update" label="Meer informatie" tag="nuxt-link" theme="cta-xl" />
       <!-- <CoreButton
         to="https://app.popsup.nl/create-account"
         label="Start gratis proefperiode"

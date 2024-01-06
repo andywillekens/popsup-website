@@ -49,6 +49,7 @@
         <ContentSlot :use="$slots.default" unwrap="p" />
       </h1>
       <!-- CTA -->
+      <CoreButton to="/blog/grote-update" label="Meer informatie" tag="nuxt-link" theme="cta" />
       <!-- <CoreButton
         to="https://app.popsup.nl/create-account"
         label="Start jouw gratis proefperiode"

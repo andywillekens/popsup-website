@@ -65,6 +65,11 @@
         </div>
         <!--CTA -->
         <div class="flex flex-col gap-1">
+          <CoreButton
+            to="/blog/grote-update"
+            label="Meer informatie"
+            tag="nuxt-link"
+            :theme="plan.featured ? 'default' : 'cta-alt'" />
           <!-- <CoreButton
             to="https://app.popsup.nl/create-account"
             label="Start direct!"
