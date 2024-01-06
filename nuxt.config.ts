@@ -8,8 +8,12 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxthq/studio',
     '@nuxt/image',
-    'nuxt-icon'
+    'nuxt-icon',
+    'nuxt-gtag'
   ],
+  gtag: {
+    id: 'G-0GQLHD0016'
+  },
   site: {
     url: 'https://popsup.nl',
     name: 'PopsUp',
