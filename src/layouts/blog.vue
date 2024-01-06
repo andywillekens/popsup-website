@@ -28,5 +28,4 @@
       <NuxtLink to="/blog">Terug naar het overzicht</NuxtLink>
     </section>
   </main>
-  <SpeedInsights />
 </template>
