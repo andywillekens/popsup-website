@@ -33,7 +33,8 @@
         icon-color="purple-600"
         icon-size="32"
         tag="button"
-        theme="ghost" />
+        theme="ghost"
+        title="Verberg menu" />
     </div>
     <!-- Menu -->
     <div class="mobileNav flex flex-col gap-8">

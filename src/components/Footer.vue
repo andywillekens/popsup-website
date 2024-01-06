@@ -22,10 +22,10 @@
       </section>
       <section
         class="content-large flex flex-col-reverse lg:flex-row items-center gap-2 justify-between pt-8">
-        <p class="text-base text-gray-800">
+        <p class="text-base text-gray-600">
           &copy; {{ new Date().getFullYear() }} PopsUp, een product van Webtactic.
         </p>
-        <p class="text-base text-gray-800">
+        <p class="text-base text-gray-600">
           PopsUp is met
           <Icon name="ph:heart-duotone" class="text-purple-500 animate-heart-beat" size="24" />
           ontwikkeld in Nederland.

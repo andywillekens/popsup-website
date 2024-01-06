@@ -23,7 +23,11 @@
           class="hover:scale-110 hover:-rotate-2 duration-300 flex justify-center"
           :to="integration.url"
           :title="integration.title">
-          <NuxtImg class="shrink-0 h-12" :src="`/assets/images/${integration.image}`" />
+          <NuxtImg
+            class="shrink-0 h-12"
+            :src="`/assets/images/${integration.image}`"
+            :alt="integration.title"
+            sizes="170px" />
         </NuxtLink>
       </template>
     </div>

@@ -111,7 +111,7 @@
       </div>
     </section>
 
-    <span class="text-gray-500 text-base">* Support via: e-mail, telefoon & videocall</span>
+    <span class="text-gray-800 text-base">* Support via: e-mail, telefoon & videocall</span>
     <p>
       Meer pop-up campagnes nodig of wil je weten wat er mogelijk is? Neem contact op via
       <a href="mailto:info@popsup.nl">info@popsup.nl</a>

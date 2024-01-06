@@ -83,7 +83,8 @@
       icon-color="purple-600"
       tag="button"
       icon-size="32"
-      theme="ghost" />
+      theme="ghost"
+      title="Toon menu" />
     <!-- Mobile menu -->
     <MobileNavigation
       @closeMenu="showMobileMenu = false"
