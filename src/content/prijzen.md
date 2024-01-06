@@ -12,7 +12,7 @@ navigation:
 :available-plans{
 :title="Een plan dat bij jou past."
 :plans='[
-{"name": "Starter", "price": "7", "popups" : "2", "support": "basic"},
+{"name": "Starter", "price": "7", "popups" : "2", "support": "extended"},
 {"name": "Plus", "price": "24", "featured": true, "tag": "Aanbevolen", "popups" : "6", "support": "extended"},
 {"name": "Pro", "price": "97", "popups" : "50", "support": "extended"}
 ]'

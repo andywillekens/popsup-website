@@ -118,8 +118,9 @@
 
     <span class="text-gray-800 text-base">* Support via: e-mail, telefoon & videocall</span>
     <p>
-      Meer pop-up campagnes nodig of wil je weten wat er mogelijk is? Neem contact op via
-      <a href="mailto:info@popsup.nl">info@popsup.nl</a>
+      Meer pop-up campagnes nodig of wil je weten wat er mogelijk is?<br />
+      Stuur dan een mail naar <a href="mailto:info@popsup.nl">info@popsup.nl</a> of bel
+      <a href="tel:0615652039">06-15652039</a>
     </p>
   </section>
 </template>
