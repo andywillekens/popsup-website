@@ -13,6 +13,7 @@
     "@nuxthq/studio": "^1.0.6",
     "@nuxtjs/seo": "^2.0.0-rc.2",
     "nuxt": "^3.9.0",
+    "nuxt-gtag": "^1.1.2",
     "nuxt-icon": "^0.6.6",
     "sass": "^1.69.5",
     "typescript": "^5.3.3"
