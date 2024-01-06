@@ -3,7 +3,7 @@
     templateParams: {
       blogCategory: 'Blog'
     },
-    titleTemplate: '%s %separator %blogCategory %separator %siteName'
+    titleTemplate: '%blogCategory %separator %s %separator %siteName'
   })
 
   const route = useRoute()
