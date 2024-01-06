@@ -1,5 +1,5 @@
 ---
-title: 'Over'
+title: 'Over ons'
 description: 'PopsUp is ontworpen om jou te helpen bij het bouwen van opvallende pop-up formulieren.'
 layout: page
 navigation:
