@@ -46,6 +46,8 @@
     class="shadow-lg bg-gray-100 border-2 border-t-0 border-gray-400 rounded-xl rounded-t-none overflow-hidden grid relative">
     <template v-for="(image, imageIdx) in images">
       <NuxtImg
+        width="680"
+        height="372"
         :class="
           imageIdx === currentImage
             ? 'opacity-100 translate-x-0 z-20'

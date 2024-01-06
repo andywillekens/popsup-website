@@ -24,6 +24,7 @@
           :to="integration.url"
           :title="integration.title">
           <NuxtImg
+            width="170"
             class="shrink-0 h-12"
             :src="`/assets/images/${integration.image}`"
             :alt="integration.title"

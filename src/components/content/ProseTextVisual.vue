@@ -33,6 +33,7 @@
           <ContentSlot :use="$slots.text" />
         </div>
         <NuxtImg
+          width="424"
           :title="imageTitle"
           class="shrink-0 w-full md:w-1/2 h-full rounded-lg shadow-lg"
           :src="`/assets/images/${image}`"
