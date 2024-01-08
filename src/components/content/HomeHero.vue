@@ -1,16 +1,10 @@
 <script setup lang="ts">
-  const props = defineProps({
-    payoff: {
-      type: String,
-      required: true,
-      default: ''
-    },
-    words: {
-      type: String,
-      default: 'sales'
-    }
-  })
+  export interface Props {
+    payoff: string
+    words: string
+  }
 
+  const props = defineProps<Props>()
   const splitPayoff = props.payoff.split('X')
   const wordArray = props.words.split(',')
 
