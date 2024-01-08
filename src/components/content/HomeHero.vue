@@ -50,9 +50,8 @@
         tag="nuxt-link"
         theme="cta" /> -->
     </section>
-    <section
-      class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0 [mask-image:none] xl:[mask-image:_linear-gradient(to_right,_black_calc(100%-200px),transparent_100%)] 2xl:[mask-image:none]">
-      <ImageViewer :images="imageArr" />
+    <section class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0">
+      <ImageViewer url="https://app.popsup.nl" :images="imageArr" />
     </section>
   </section>
 </template>
