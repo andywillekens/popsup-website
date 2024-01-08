@@ -1,4 +1,9 @@
 <script setup lang="ts">
+  export interface Props {
+    title: string
+    text: string
+  }
+  defineProps<Props>()
   const { gtag, grantConsent, revokeConsent } = useGtag()
   const isTracking = ref(false)
   const animationPlayed = useCookie('anim')
@@ -48,7 +53,7 @@
       <section class="flex flex-col p-6 pb-0 gap-4">
         <div class="flex justify-between items-center">
           <span class="flex gap-2 font-head tracking-tight font-bold text-2xl text-mirage-900">
-            Koekje?<Icon name="ph:cookie-duotone" class="text-purple-600" size="28" />
+            {{ title }}<Icon name="ph:cookie-duotone" class="text-purple-600" size="28" />
           </span>
           <CoreButton
             @click="updateConsentState()"
@@ -59,9 +64,7 @@
             theme="ghost"
             title="Verberg cookiemelding" />
         </div>
-        <span class="text-gray-900 leading-relaxed sm:leading-normal"
-          >Wij gebruiken cookies om jouw ervaring op deze website te verbeteren.</span
-        >
+        <span class="text-gray-900 leading-relaxed sm:leading-normal">{{ text }}</span>
       </section>
       <section class="flex flex-row justify-between p-6 pt-0 gap-4">
         <CoreButton

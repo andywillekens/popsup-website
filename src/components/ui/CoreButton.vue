@@ -79,7 +79,7 @@
     :is="component"
     v-bind="buttonProps"
     :class="[
-      `group text-md no-underline text-center flex tracking-tight items-center justify-center font-head font-medium rounded-lg transition-all duration-150 outline-0 outline-none cursor-pointer gap-2`,
+      `button group text-md no-underline text-center flex tracking-tight items-center justify-center font-head font-medium rounded-lg transition-all duration-150 outline-0 outline-none cursor-pointer gap-2`,
       themeClasses,
       loadingClasses
     ]">

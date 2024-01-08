@@ -54,5 +54,7 @@
   </ContentDoc>
   <!-- Footer -->
   <Footer :path="$route.path" />
-  <CookieConsent />
+  <CookieConsent
+    title="Koekje?"
+    text="Wij gebruiken cookies om jouw ervaring op deze website te verbeteren." />
 </template>
