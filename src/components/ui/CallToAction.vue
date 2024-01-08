@@ -1,20 +1,10 @@
 <script setup lang="ts">
-  defineProps({
-    title: {
-      type: String,
-      required: true,
-      default: ''
-    },
-    small: {
-      type: String,
-      required: true,
-      default: ''
-    },
-    type: {
-      type: String,
-      required: true
-    }
-  })
+  export interface Props {
+    title: string
+    small: string
+    type: string
+  }
+  defineProps<Props>()
 </script>
 <template>
   <section

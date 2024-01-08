@@ -1,42 +1,40 @@
 <script setup lang="ts">
+  export interface Props {
+    type: string
+  }
+
   interface MenuItem {
     title: string
     _path: string
-    navigation?: {
-      title: string
-      location: string | string[]
-      category?: string
-      order?: number
-    }
+    navigation?: [
+      {
+        title: string
+        location: string | string[]
+        category?: string
+        order?: number
+      }
+    ]
     location: string | string[]
     category?: string
     order?: number
     children?: MenuItem[]
   }
 
-  const props = defineProps({
-    type: {
-      type: String,
-      required: true,
-      default: 'main'
-    }
-  })
-
+  const props = defineProps<Props>()
   const showMobileMenu = ref(false)
-
   const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
 
   const mainMenuItems = navigation.value
     ?.filter((item) => item.location.includes('main'))
     .sort((a, b) => (a.order || 0) - (b.order || 0))
 
-  const footerMenuItems: MenuItem[] = (navigation.value || [])?.filter((item) =>
+  const footerMenuItems: any = (navigation.value || [])?.filter((item) =>
     item.location.includes('footer')
   )
 
   const categories: Record<string, MenuItem[]> = {}
 
-  footerMenuItems?.forEach((item) => {
+  footerMenuItems?.forEach((item: any) => {
     const category: any = item.category || 'uncategorized'
     if (!categories[category]) {
       categories[category] = []
@@ -46,11 +44,7 @@
 </script>
 <template>
   <nav
-    :class="
-      type === 'main'
-        ? 'items-center flex-row '
-        : 'items-start flex-col gap-8 lg:gap-0 lg:flex-row '
-    "
+    :class="type ? 'items-center flex-row ' : 'items-start flex-col gap-8 lg:gap-0 lg:flex-row '"
     class="content-large 2xl:breakout flex justify-between">
     <!-- Logo and text container -->
     <div class="flex flex-col gap-4">

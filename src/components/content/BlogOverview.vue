@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  // Sort by title ascending
   const list = await queryContent('blog').sort({ date: -1 }).find()
 </script>
 <template>

@@ -1,10 +1,9 @@
 <script setup lang="ts">
-  const props = defineProps({
-    path: {
-      type: String,
-      required: true
-    }
-  })
+  export interface Props {
+    path: string
+  }
+
+  const props = defineProps<Props>()
 
   const isHome = ref(props.path === '/')
 </script>

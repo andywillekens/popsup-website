@@ -3,7 +3,6 @@
     title: string
     text: string
   }
-  defineProps<Props>()
   const { gtag, grantConsent, revokeConsent } = useGtag()
   const isTracking = ref(false)
   const animationPlayed = useCookie('anim')
@@ -16,6 +15,8 @@
       consentState.value = true
     }
   }
+
+  defineProps<Props>()
 
   setTimeout(() => {
     animationPlayed.value = 'played'

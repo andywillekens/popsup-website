@@ -1,41 +1,20 @@
 <script setup lang="ts">
   const props = defineProps({
-    tag: {
-      type: String,
-      default: 'nuxt-link'
-    },
+    tag: String,
     to: {
       type: [String, Object]
     },
-    active: {
-      type: Boolean,
-      default: false
-    },
-    loading: {
-      type: Boolean,
-      default: false
-    },
-    theme: {
-      type: String,
-      default: 'default'
-    },
+    loading: Boolean,
+    theme: String,
     label: String,
     iconPrefix: String,
     iconSuffix: String,
-    iconColor: {
-      type: String,
-      default: 'inherit'
-    },
-    iconSize: {
-      type: String,
-      default: '18'
-    }
+    iconColor: String,
+    iconSize: String
   })
 
   const themeClasses = computed(() => {
-    if (props.theme === 'default') {
-      return 'px-4 py-2 !text-white bg-purple-500 hover:bg-purple-600 !border-0'
-    } else if (props.theme === 'cta') {
+    if (props.theme === 'cta') {
       return 'px-6 py-3 text-lg bg-purple-500 text-white hover:bg-purple-600 hover:text-white shadow-lg shadow-purple-600/40'
     } else if (props.theme === 'cta-alt') {
       return 'px-4 py-2 text-lg bg-purple-400/20 text-purple-600 hover:bg-purple-600 hover:text-white'
@@ -47,6 +26,8 @@
       return 'px-4 py-2 bg-purple-500/30 text-purple-300 hover:bg-purple-500 hover:text-white focus:z-10'
     } else if (props.theme === 'alt-grey') {
       return 'px-4 py-2 bg-gray-600/10 text-mirage-900 bg-grey-500/20 hover:hover:bg-mirage-900 hover:text-white focus:z-10'
+    } else {
+      return 'px-4 py-2 !text-white bg-purple-500 hover:bg-purple-600 !border-0'
     }
   })
 
@@ -57,13 +38,13 @@
   })
 
   const buttonProps = computed(() => {
-    if (props.tag === 'nuxt-link') {
-      return {
-        to: props.to
-      }
-    } else if (props.tag === 'button') {
+    if (props.tag === 'button') {
       return {
         type: 'button'
+      }
+    } else {
+      return {
+        to: props.to
       }
     }
   })
@@ -86,23 +67,23 @@
     <slot>
       <Icon
         v-if="loading"
-        :size="iconSize"
+        :size="iconSize ? iconSize : '18'"
         name="svg-spinners:ring-resize"
         class="transition-all"
-        :class="iconColor && 'text-' + iconColor" />
+        :class="iconColor ? 'text-' + iconColor : 'text-inherit'" />
       <Icon
         v-if="iconPrefix && !loading"
-        :size="iconSize"
+        :size="iconSize ? iconSize : '18'"
         :name="iconPrefix"
         class="transition-all"
-        :class="iconColor && 'text-' + iconColor" />
+        :class="iconColor ? 'text-' + iconColor : 'text-inherit'" />
       <span v-if="label">{{ label }}</span>
       <Icon
         v-if="iconSuffix && !loading"
-        :size="iconSize"
+        :size="iconSize ? iconSize : '18'"
         :name="iconSuffix"
         class="transition-all"
-        :class="iconColor && 'text-' + iconColor" />
+        :class="iconColor ? 'text-' + iconColor : 'text-inherit'" />
     </slot>
   </component>
 </template>

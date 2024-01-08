@@ -1,12 +1,10 @@
 <script setup lang="ts">
-  defineProps({
-    items: {
-      type: Array
-    },
-    show: {
-      type: Boolean
-    }
-  })
+  export interface Props {
+    items: any
+    show: boolean
+  }
+
+  defineProps<Props>()
 
   const emit = defineEmits(['closeMenu'])
 

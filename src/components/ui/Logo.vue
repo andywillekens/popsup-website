@@ -1,10 +1,9 @@
 <script setup lang="ts">
-  const props = defineProps({
-    type: {
-      type: String,
-      default: 'dark'
-    }
-  })
+  export interface Props {
+    type?: string
+  }
+
+  const props = defineProps<Props>()
 
   const colorType = ref(props.type === 'dark' ? 'fill-mirage-900' : 'fill-white')
 </script>

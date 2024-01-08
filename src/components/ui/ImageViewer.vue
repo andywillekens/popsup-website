@@ -1,16 +1,15 @@
 <script setup lang="ts">
-  type Image = {
+  export interface Props {
+    images: [
+      {
+        title: string
+        url: string
+      }
+    ]
     url: string
-    title: string
   }
 
-  const props = defineProps({
-    images: Array as () => Image[],
-    url: {
-      type: String,
-      default: 'https://app.popsup.nl/'
-    }
-  })
+  const props = defineProps<Props>()
 
   const currentImage = ref(0)
   const maxImages = props.images?.length || 0
@@ -19,8 +18,6 @@
     const increment = operation === '+' ? 1 : -1
     currentImage.value = (currentImage.value + increment + maxImages) % maxImages
   }
-
-  // TODO: Add fallback image
 </script>
 <template>
   <div
