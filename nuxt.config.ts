@@ -25,6 +25,9 @@ export default defineNuxtConfig({
       redirect: { to: '/over-ons', statusCode: 308 }
     }
   },
+  seo: {
+    redirectToCanonicalSiteUrl: true
+  },
   gtag: {
     id: 'G-0GQLHD0016'
   },
@@ -36,7 +39,8 @@ export default defineNuxtConfig({
     name: 'PopsUp',
     description:
       'Professionele pop-up formulieren bouwen en integreren in je website, webshop of webapplicatie.',
-    indexable: true
+    indexable: true,
+    trailingSlash: false
   },
   ogImage: {
     enabled: true,
