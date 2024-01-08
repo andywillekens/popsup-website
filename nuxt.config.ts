@@ -11,6 +11,20 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-gtag'
   ],
+  routeRules: {
+    '/blog/eindelijk-mijn-tool-heeft-een-naam': {
+      redirect: { to: '/blog/een-idee-is-geboren', statusCode: 308 }
+    },
+    '/pre-sale': {
+      redirect: { to: '/prijzen', statusCode: 308 }
+    },
+    '/roadmap': {
+      redirect: { to: '/over-ons', statusCode: 308 }
+    },
+    '/over': {
+      redirect: { to: '/over-ons', statusCode: 308 }
+    }
+  },
   gtag: {
     id: 'G-0GQLHD0016'
   },
