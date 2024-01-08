@@ -55,7 +55,7 @@
         ><Logo :type="type === 'main' ? 'dark' : 'white'" alt="PopsUp Logo"
       /></NuxtLink>
       <!-- Subtext -->
-      <p v-if="type === 'footer'" class="w-full max-w-[75%] lg:max-w-lg">
+      <p v-if="type === 'footer'" class="w-full max-w-full sm:max-w-[75%] lg:max-w-lg">
         Professionele pop-up formulieren bouwen en integreren in je website, webshop of
         webapplicatie.
       </p>
