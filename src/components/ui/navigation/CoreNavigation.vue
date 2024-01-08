@@ -90,7 +90,7 @@
     <!-- Footer menu -->
     <div class="flex gap-10 lg:gap-20" v-if="type === 'footer'">
       <template v-for="(category, catIndex) in categories">
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 flex-shrink-0">
           <p class="uppercase text-gray-300 text-base">{{ catIndex }}</p>
           <template v-for="item in category">
             <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
