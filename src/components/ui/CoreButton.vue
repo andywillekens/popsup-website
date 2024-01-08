@@ -42,7 +42,7 @@
     } else if (props.theme === 'danger') {
       return 'px-4 py-2 text-white bg-red-500 hover:bg-red-600'
     } else if (props.theme === 'ghost') {
-      return 'px-2 py-1 text-purple-500 bg-transparent hover:bg-purple-400/20'
+      return 'px-2 py-1 text-purple-500 bg-transparent hover:bg-purple-400/10'
     } else if (props.theme === 'alt') {
       return 'px-4 py-2 bg-purple-500/30 text-purple-300 hover:bg-purple-500 hover:text-white focus:z-10'
     } else if (props.theme === 'alt-grey') {

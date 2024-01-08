@@ -172,7 +172,7 @@ export default {
         'heart-beat': 'heartBeat 1.2s ease-in-out infinite',
         'word-slider': 'slidewords 8s cubic-bezier(.16,1,.3,1) infinite',
         'infinite-scrolling-bar': 'infiniteScroll 50s linear infinite',
-        'slide-in-from-left': 'slideInFromLeft 2s .6s cubic-bezier(0.16, 1, 0.3, 1) forwards'
+        'slide-in-from-left': 'slideInFromLeft .6s 1s cubic-bezier(0.16, 1, 0.3, 1) forwards'
       }
     }
   }
