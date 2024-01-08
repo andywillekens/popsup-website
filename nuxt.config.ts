@@ -29,7 +29,8 @@ export default defineNuxtConfig({
     redirectToCanonicalSiteUrl: true
   },
   gtag: {
-    id: 'G-0GQLHD0016'
+    id: 'G-0GQLHD0016',
+    initialConsent: false
   },
   sitemap: {
     strictNuxtContentPaths: true

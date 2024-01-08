@@ -46,7 +46,7 @@
     } else if (props.theme === 'alt') {
       return 'px-4 py-2 bg-purple-500/30 text-purple-300 hover:bg-purple-500 hover:text-white focus:z-10'
     } else if (props.theme === 'alt-grey') {
-      return 'px-4 py-2 bg-gray-600/10 text-mirage-9000 bg-grey-500/20 hover:hover:bg-mirage-900 hover:text-white focus:z-10'
+      return 'px-4 py-2 bg-gray-600/10 text-mirage-900 bg-grey-500/20 hover:hover:bg-mirage-900 hover:text-white focus:z-10'
     }
   })
 

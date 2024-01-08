@@ -54,4 +54,5 @@
   </ContentDoc>
   <!-- Footer -->
   <Footer :path="$route.path" />
+  <CookieConsent />
 </template>

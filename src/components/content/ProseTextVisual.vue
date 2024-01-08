@@ -2,8 +2,8 @@
   export interface Props {
     image: string
     imageTitle: string
-    pull: boolean
-    push: boolean
+    pull?: boolean
+    push?: boolean
   }
   defineProps<Props>()
 </script>
