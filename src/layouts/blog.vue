@@ -15,9 +15,9 @@
     <h1>{{ data?.title }}</h1>
     <section class="flex flex-col mb-4">
       <!-- Author -->
-      <span class="text-base text-gray-500">Auteur: {{ data?.author }}</span>
+      <span class="text-base text-gray-800">Auteur: {{ data?.author }}</span>
       <!-- Date -->
-      <span class="text-base text-gray-500"
+      <span class="text-base text-gray-800"
         >Datum: {{ data?.date.split('-').reverse().join('-') }}</span
       >
     </section>
