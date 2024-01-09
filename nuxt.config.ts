@@ -25,6 +25,14 @@ export default defineNuxtConfig({
       redirect: { to: '/over-ons', statusCode: 308 }
     }
   },
+  schemaOrg: {
+    identity: {
+      type: 'Organization',
+      name: 'PopsUp',
+      url: 'https://popsup.nl',
+      logo: 'https://popsup.nl/assets/images/logo.svg'
+    }
+  },
   seo: {
     redirectToCanonicalSiteUrl: true
   },

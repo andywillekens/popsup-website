@@ -1,7 +1,7 @@
 ---
 title: 'Veelgestelde vragen'
 description: 'Vind hier de antwoorden op je vragen.'
-layout: page
+layout: faq
 navigation:
   title: 'FAQ'
   location: footer
