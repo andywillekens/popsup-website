@@ -24,28 +24,32 @@ Veelgestelde [vragen]
 
 ::div{.grid-cols-content}
 
-<details>
-<summary>Is PopsUp gratis te gebruiken?</summary>
+::prose-faq-item
+#q
+Is PopsUp gratis te gebruiken?
+#a
 De eerste 14 dagen kun je PopsUp gratis en zonder betaalmethode uitproberen. Na deze periode dien je een abonnement af te nemen.
-</details>
+::
 
-<details>
-<summary>Wat gebeurt er als mijn abonnement afloopt?</summary>
+::prose-faq-item
+#q
+Wat gebeurt er als mijn abonnement afloopt?
+#a
 Als je abonnement afloopt, wordt je pop-up campagne offline gezet en kun je geen nieuwe campagnes toevoegen. Wel kun je je huidige campagne blijven bewerken.
-</details>
+::
 
-<details>
-<summary>Kun je op ieder moment opzeggen?</summary>
-Ja, je kunt op elk moment je abonnement opzeggen. Je blijft toegang houden tot je account.
-</details>
-
-<details>
-<summary>Kan ik mijn account ten alle tijden verwijderen?</summary>
+::prose-faq-item
+#q
+Kun je op ieder moment opzeggen?
+#a
 Ja, jij blijft eigenaar van jouw gegevens. Je kunt op ieder gewenst moment jouw account verwijderen.
-</details>
+::
 
-<details>
-<summary>Wat is een pop-up campagne?</summary>
+::prose-faq-item
+#q
+Wat is een pop-up campagne?
+#a
 Een pop-up of pop-up formulier refereert naar een pop-up campagne. Binnen PopsUp kun je verschillende pop-up campagnes tegelijkertijd laten draaien. Deze kun je live of offline zetten.
-</details>
+::
+
 ::

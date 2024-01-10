@@ -30,7 +30,11 @@ export default defineNuxtConfig({
       type: 'Organization',
       name: 'PopsUp',
       url: 'https://popsup.nl',
-      logo: 'https://popsup.nl/assets/images/logo.svg'
+      logo: {
+        contentUrl: 'https://popsup.nl/assets/images/logo.svg',
+        inLanguage: 'nl-NL'
+      },
+      inLanguage: 'nl-NL'
     }
   },
   seo: {
