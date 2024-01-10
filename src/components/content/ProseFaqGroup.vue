@@ -15,7 +15,7 @@
   const props = defineProps<Props>()
 </script>
 <template>
-  <div>
+  <div class="mb-16">
     <template v-for="group in questionGroup">
       <h2 class="mt-8">{{ group.title }}</h2>
       <template v-for="question in group.questions">
