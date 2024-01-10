@@ -4,7 +4,6 @@ description: 'Makkelijk en snel een professionele pop-up op je website integrere
 layout: home
 navigation: false
 sitemap:
-  lastmod: 2024-01-10T10:30:00+00:00
   changefreq: daily
   priority: 1.0
 ---
