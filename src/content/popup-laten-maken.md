@@ -4,7 +4,7 @@ description: 'Liever niet zelf met HTML, CSS en Javascript aan de gang?'
 layout: page
 navigation: false
 sitemap:
-  lastmod: 2024-01-10
+  lastmod: 2024-01-10T10:30:00+00:00
   changefreq: never
   priority: 0.4
 ---

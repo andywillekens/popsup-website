@@ -6,7 +6,7 @@ author: 'Andy Willekens'
 head: true
 layout: blog
 sitemap:
-  lastmod: 2023-01-12
+  lastmod: 2023-01-12T09:15:00+00:00
   changefreq: never
   priority: 0.3
 ---

@@ -7,7 +7,7 @@ navigation:
   location: footer
   category: Support
 sitemap:
-  lastmod: 2024-01-10
+  lastmod: 2024-01-10T10:30:00+00:00
   changefreq: monthly
   priority: 0.7
 ---
