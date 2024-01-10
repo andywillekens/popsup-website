@@ -22,7 +22,8 @@
         <NuxtLink
           class="hover:scale-110 hover:-rotate-2 duration-300 flex justify-center"
           :to="integration.url"
-          :title="integration.title">
+          :title="integration.title"
+          target="_blank">
           <NuxtImg
             width="170"
             class="shrink-0 h-12"
