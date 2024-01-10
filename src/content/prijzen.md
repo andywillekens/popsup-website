@@ -7,6 +7,10 @@ navigation:
   location: ['main', 'footer']
   order: 1
   category: Informatie
+sitemap:
+  lastmod: 2024-01-10
+  changefreq: weekly
+  priority: 0.9
 ---
 
 :available-plans{

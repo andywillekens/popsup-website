@@ -6,6 +6,10 @@ navigation:
   title: 'Privacy'
   location: footer
   category: Informatie
+sitemap:
+  lastmod: 2024-01-10
+  changefreq: yearly
+  priority: 0.6
 ---
 
 # Privacy

@@ -7,6 +7,10 @@ navigation:
   location: ['main', 'footer']
   order: 3
   category: Support
+sitemap:
+  lastmod: 2024-01-10
+  changefreq: monthly
+  priority: 0.7
 ---
 
 # Contact opnemen

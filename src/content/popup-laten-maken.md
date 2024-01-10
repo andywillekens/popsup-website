@@ -3,6 +3,10 @@ title: 'Pop-up laten maken'
 description: 'Liever niet zelf met HTML, CSS en Javascript aan de gang?'
 layout: page
 navigation: false
+sitemap:
+  lastmod: 2024-01-10
+  changefreq: never
+  priority: 0.4
 ---
 
 # Laat je pop-up campagne door een specialist maken.

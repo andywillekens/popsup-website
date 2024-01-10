@@ -5,6 +5,10 @@ date: '2023-03-29'
 author: 'Andy Willekens'
 head: true
 layout: blog
+sitemap:
+  lastmod: 2023-03-29
+  changefreq: never
+  priority: 0.3
 ---
 
 Het was even stil, maar ik heb niet stilgezeten! Ik heb achter de schermen hard gewerkt aan het bouwen van de applicatie, het koppelen van de database en het optimaliseren van de API.

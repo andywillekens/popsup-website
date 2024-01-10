@@ -3,6 +3,10 @@ title: 'De pop-up tool uit Nederland'
 description: 'Makkelijk en snel een professionele pop-up op je website integreren'
 layout: home
 navigation: false
+sitemap:
+  lastmod: 2024-01-10
+  changefreq: daily
+  priority: 1.0
 ---
 
 ::home-hero{.breakout payoff="Boost je X met de pop-up tool uit Nederland." words="sales, conversie, campagne, omzet, sales"}

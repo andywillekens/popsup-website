@@ -7,6 +7,10 @@ navigation:
   title: 'Blog'
   location: 'footer'
   category: Bedrijf
+sitemap:
+  lastmod: 2024-01-10
+  changefreq: weekly
+  priority: 0.7
 ---
 
 # Blog

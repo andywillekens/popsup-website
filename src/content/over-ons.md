@@ -7,6 +7,10 @@ navigation:
   location: ['main', 'footer']
   category: Bedrijf
   order: 2
+sitemap:
+  lastmod: 2024-01-10
+  changefreq: monthly
+  priority: 0.7
 ---
 
 # Over PopsUp

@@ -5,6 +5,10 @@ date: '2023-01-12'
 author: 'Andy Willekens'
 head: true
 layout: blog
+sitemap:
+  lastmod: 2023-01-12
+  changefreq: never
+  priority: 0.3
 ---
 
 De droom was er al een tijdje, een eigen product op de markt te brengen, maar hoe en wat, dat wist ik niet. Tot ik in 2022 dacht, waarom ontwikkel ik niet een product op basis van de opgedane kennis van de aflopen tien jaar.

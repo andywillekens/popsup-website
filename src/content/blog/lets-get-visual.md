@@ -5,6 +5,10 @@ date: '2023-02-02'
 author: 'Andy Willekens'
 head: true
 layout: blog
+sitemap:
+  lastmod: 2023-02-02
+  changefreq: never
+  priority: 0.3
 ---
 
 Naast web development heb ik ook een passie voor Graphic Design. Althans, laten we het er op houden dat ik mijn weg prima kan vinden in het Adobe software pakket. Naast dat ik hier bedreven in ben, vind ik het ook nog eens leuk om te doen!

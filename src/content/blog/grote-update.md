@@ -6,6 +6,10 @@ date: '2024-01-05'
 author: 'Andy Willekens'
 head: true
 layout: blog
+sitemap:
+  lastmod: 2024-01-05
+  changefreq: never
+  priority: 0.3
 ---
 
 Er komt deze maand een grote update aan, want..

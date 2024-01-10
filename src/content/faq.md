@@ -6,6 +6,10 @@ navigation:
   title: 'FAQ'
   location: footer
   category: Support
+sitemap:
+  lastmod: 2024-01-10
+  changefreq: monthly
+  priority: 0.7
 ---
 
 # Veelgestelde vragen

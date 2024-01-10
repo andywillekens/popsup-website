@@ -5,6 +5,10 @@ date: '2023-02-21'
 author: 'Andy Willekens'
 head: true
 layout: blog
+sitemap:
+  lastmod: 2023-02-21
+  changefreq: never
+  priority: 0.3
 ---
 
 Wat voor mij een handige tool is, blijkt minder bruikbaar voor een groot aantal losse projecten. Met het instellen van een configuratie bestand en het toevoegen van HTML, CSS en Javascript had ik binnen no time een pop-up gebouwd. Maar deze oplossing op zich zelf was niet scalable gezien ik:
