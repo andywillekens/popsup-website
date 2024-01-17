@@ -68,7 +68,10 @@ export default defineNuxtConfig({
         separator: '-'
       },
       charset: 'utf-8',
-      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+      link: [
+        { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
+        { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }
+      ]
     }
   },
   srcDir: 'src',
