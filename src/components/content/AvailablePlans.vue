@@ -31,7 +31,7 @@
       v-model="yearlyBilling" />
 
     <section
-      class="w-full flex flex-row items-center justify-center gap-2 flex-wrap lg:gap-5 xl:gap-10 text-left">
+      class="w-full flex flex-row items-stretch justify-center gap-2 flex-wrap lg:gap-5 xl:gap-10 text-left">
       <div
         v-for="plan in plans"
         :class="
@@ -86,30 +86,34 @@
               <Icon
                 name="ph:circle-wavy-check-duotone"
                 class="text-purple-400 mr-1 mt-1"
-                size="18" />{{ plan.popups }} unieke pop-up
+                size="18" />{{ plan.popups }} pop-up
               {{ plan.popups > 1 ? 'campagnes' : 'campagne' }}
             </li>
             <li class="flex items-start">
               <Icon
                 name="ph:circle-wavy-check-duotone"
                 class="text-purple-400 mr-1 mt-1"
-                size="18" />Ongelimiteerd aantal views
+                size="18" />Onbeperkt aantal weergaven
             </li>
             <li class="flex items-start">
               <Icon
                 name="ph:circle-wavy-check-duotone"
                 class="text-purple-400 mr-1 mt-1"
-                size="18" />Uitgebreide statistieken
+                size="18" />Simpele statistieken
             </li>
-            <li class="flex items-start">
+            <li
+              v-if="plan.support === 'basic' || plan.support === 'extended'"
+              class="flex items-start">
               <Icon
                 name="ph:circle-wavy-check-duotone"
                 class="text-purple-400 mr-1 mt-1"
-                size="18" />
-              <template v-if="plan.support === 'basic'">Support via e-mail</template>
-              <template v-else="plan.support === 'extended'"
-                >Support op de software<span class="text-purple-500 ml-1">*</span></template
-              >
+                size="18" />Software support<span class="text-purple-500 ml-1">*</span>
+            </li>
+            <li v-if="plan.support === 'extended'" class="flex items-start">
+              <Icon
+                name="ph:circle-wavy-check-duotone"
+                class="text-purple-400 mr-1 mt-1"
+                size="18" />Support op campagnes<span class="text-purple-500 ml-1">*</span>
             </li>
           </ul>
         </section>

@@ -78,8 +78,8 @@ Kies een [plan] dat bij jou past.
 
 :available-plans{.content-large
 :plans='[
-{"name": "Starter", "price": "7", "popups" : "2", "support": "extended"},
-{"name": "Plus", "price": "24", "featured": true, "tag": "Aanbevolen", "popups" : "6", "support": "extended"},
+{"name": "Starter", "price": "7", "popups" : "2", "support": "basic"},
+{"name": "Plus", "price": "24", "featured": true, "tag": "Aanbevolen", "popups" : "8", "support": "basic"},
 {"name": "Pro", "price": "58", "popups" : "25", "support": "extended"}
 ]'
 }
