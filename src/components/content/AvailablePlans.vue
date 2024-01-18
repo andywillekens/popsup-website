@@ -108,7 +108,7 @@
                 size="18" />
               <template v-if="plan.support === 'basic'">Support via e-mail</template>
               <template v-else="plan.support === 'extended'"
-                >Premium support<span class="text-purple-500 ml-1">*</span></template
+                >Support op de software<span class="text-purple-500 ml-1">*</span></template
               >
             </li>
           </ul>
