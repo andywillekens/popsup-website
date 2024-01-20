@@ -19,7 +19,7 @@ Onze reis begon met een eenvoudige gedachte: waarom niet een product ontwikkelen
 
 De vonk ontstond toen we besloten een tool te creëren waarmee we op een eenvoudige en snelle manier aangepaste pop-up formulieren konden bouwen. Ons doel was simpel: efficiëntie vergroten en het ontwikkelproces optimaliseren. Na alle inspanningen slaagden we erin om een proof of concept (POC) te ontwikkelen waarmee we moeiteloos een enkel JavaScript bestand kunnen genereren, rechtstreeks vanuit een paar bronbestanden.
 
-Wat als we deze tool niet alleen voor onszelf hielden, maar ook beschikbaar maken voor anderen? Dit was het moment dat ons inspireerde om PopsUp te creëren. We zagen de mogelijkheid om niet alleen onze efficiëntie te vergroten, maar ook om anderen te ondersteunen bij hun eigen creatieve pop-up campagnes.
+Wat als we deze tool niet voor onszelf houden, maar ook beschikbaar maken voor anderen. Dit was het moment dat ons inspireerde om PopsUp te creëren. We zagen de mogelijkheid om niet alleen onze efficiëntie te vergroten, maar ook om anderen te ondersteunen bij hun eigen creatieve pop-up campagnes.
 
 ##### In het kort:
 
