@@ -1,9 +1,9 @@
 ---
-title: 'Informatiecentrum'
+title: 'Informatie'
 description: 'Ga aan de slag met PopsUp'
 layout: page
 navigation:
-  title: 'Informatiecentrum'
+  title: 'Informatie'
   location: footer
   category: Support
 sitemap:
@@ -11,7 +11,7 @@ sitemap:
   priority: 0.7
 ---
 
-# Informati
+# Informatie
 
 ### Hoe koppel ik PopsUp met Klaviyo?
 
@@ -22,4 +22,4 @@ Om een pop-up campagne te koppelen met Klaviyo heb je het volgende nodig:
 - Een list ID van Klaviyo
 - Een API key van Klaviyo
 
-[Bekijk de video om PopsUp met Klaviyo koppelen](https://youtu.be/O67HCQYa20o?si=CALI5AmOEPYOrXl1)
+[Bekijk de video](https://youtu.be/O67HCQYa20o?si=CALI5AmOEPYOrXl1)
