@@ -11,7 +11,7 @@ sitemap:
   priority: 0.7
 ---
 
-# Informatiecentrum
+# Informati
 
 ### Hoe koppel ik PopsUp met Klaviyo?
 
