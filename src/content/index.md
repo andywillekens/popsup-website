@@ -15,10 +15,10 @@ Professionele pop-up formulieren bouwen en integreren in je website, webshop of 
 :integration-bar{
 :title="Makkelijk te koppelen met:"
 :integrations='[
-{"title": "klaviyo", "url": "https://www.klaviyo.com/", "image": "klaviyo.svg"},
-{"title": "ActiveCampaign", "url": "https://www.activecampaign.com/", "image": "activecampaign.svg"},
-{"title": "Mailchimp", "url": "https://mailchimp.com/", "image": "mailchimp.svg"},
-{"title": "Mailblue", "url": "https://mailblue.nl/", "image": "mailblue.svg"}
+{"title": "klaviyo", "url": "/integraties#klaviyo", "image": "klaviyo.svg"},
+{"title": "ActiveCampaign", "url": "/integraties#activecampaign-mailblue", "image": "activecampaign.svg"},
+{"title": "Mailchimp", "url": "/integraties#mailchimp", "image": "mailchimp.svg"},
+{"title": "Mailblue", "url": "/integraties#activecampaign-mailblue", "image": "mailblue.svg"}
 ]'
 }
 

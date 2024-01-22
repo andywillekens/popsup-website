@@ -66,16 +66,11 @@
         <!--CTA -->
         <div class="flex flex-col gap-1">
           <CoreButton
-            to="/blog/grote-update"
-            label="Meer informatie"
-            tag="nuxt-link"
-            :theme="plan.featured ? 'default' : 'cta-alt'" />
-          <!-- <CoreButton
             to="https://app.popsup.nl/create-account"
             label="Start direct!"
             tag="nuxt-link"
-            :theme="plan.featured ? 'default' : 'cta-alt'" /> -->
-          <!-- <span class="w-full text-center text-gray-500 text-base">Gratis 14 dagen op proef</span> -->
+            :theme="plan.featured ? 'default' : 'cta-alt'" />
+          <span class="w-full text-center text-gray-500 text-base">Gratis 14 dagen op proef</span>
         </div>
         <div class="w-full h-[1px] bg-gray-100"></div>
         <!-- Content -->

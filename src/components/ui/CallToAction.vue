@@ -15,15 +15,14 @@
       {{ title }}
     </p>
     <div class="flex flex-col items-center gap-1">
-      <CoreButton to="/blog/grote-update" label="Meer informatie" tag="nuxt-link" theme="cta" />
-      <!-- <CoreButton
+      <CoreButton
         to="https://app.popsup.nl/create-account"
         label="Start gratis proefperiode"
         tag="nuxt-link"
-        theme="cta" /> -->
-      <!-- <p class="text-sm text-gray-500">
+        theme="cta" />
+      <p class="text-sm text-gray-500">
         {{ small }}
-      </p> -->
+      </p>
     </div>
   </section>
   <div v-else class="grid-cols-content content-large bg-purple-600/5">
@@ -34,15 +33,14 @@
         {{ title }}
       </p>
       <div class="flex flex-col items-center gap-1 flex-shrink-0">
-        <CoreButton to="/blog/grote-update" label="Meer informatie" tag="nuxt-link" theme="cta" />
-        <!-- <CoreButton
+        <CoreButton
           to="https://app.popsup.nl/create-account"
           label="Start gratis proefperiode"
           tag="nuxt-link"
-          theme="cta" /> -->
-        <!-- <p class="text-sm text-gray-600">
+          theme="cta" />
+        <p class="text-sm text-gray-600">
           {{ small }}
-        </p> -->
+        </p>
       </div>
     </section>
   </div>

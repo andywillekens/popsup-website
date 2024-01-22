@@ -19,6 +19,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.10.3"
+    "@nuxtjs/tailwindcss": "^6.10.3",
+    "lite-youtube-embed": "^0.3.0"
   }
 }

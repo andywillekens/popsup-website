@@ -4756,6 +4756,11 @@ listhen@^1.5.5:
     untun "^0.1.2"
     uqr "^0.1.2"
 
+lite-youtube-embed@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/lite-youtube-embed/-/lite-youtube-embed-0.3.0.tgz#95423358d7f55e2c053eef8a0ca42742f1e1e0ef"
+  integrity sha512-3DUqE1C4s/+a8PVM4ik8anBsmHOW0zUavPyFQWugBulKyQpbZFE+/268Aq/pDNW7hRQJXkXpk4QjdSCpwf7Cvg==
+
 local-pkg@^0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/local-pkg/-/local-pkg-0.4.3.tgz#0ff361ab3ae7f1c19113d9bb97b98b905dbc4963"

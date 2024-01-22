@@ -51,7 +51,7 @@
           "
           :src="image.url"
           :title="image.title"
-          class="row-[1] col-[1] relative transition-all duration-500"
+          class="w-full row-[1] col-[1] relative transition-all duration-500"
           sizes="604px sm:732px md:680px"
           :loading="imageIdx === currentImage ? undefined : 'lazy'" />
         <div
