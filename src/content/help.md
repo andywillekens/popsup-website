@@ -1,9 +1,9 @@
 ---
-title: 'Informatie'
-description: 'Ga aan de slag met PopsUp'
+title: 'Help'
+description: 'Kom je er niet uit? Vind hier hulp'
 layout: page
 navigation:
-  title: 'Informatie'
+  title: 'Help'
   location: footer
   category: Support
 sitemap:
@@ -11,7 +11,7 @@ sitemap:
   priority: 0.7
 ---
 
-# Informatie
+# Help!
 
 ### Hoe koppel ik PopsUp met Klaviyo?
 
