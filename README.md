@@ -1,27 +1,4 @@
-# New Popsup website
+# PopsUp website
 
-## Main menu
-
-- https://popsup.nl/ \*
-- https://popsup.nl/product \*
-- https://popsup.nl/prijzen \*
-- https://popsup.nl/contact x
-
-## Footer menu
-
-#### Support
-
-- https://popsup.nl/contact x
-- https://popsup.nl/faq x
-
-### Bedrijf
-
-- https://popsup.nl/over x
-- https://popsup.nl/blog x
-
-### Informatie
-
-- https://popsup.nl/privacy x
-- https://popsup.nl/voorwaarden x
-
-* = sinlge page (anchor links)
+The aim for this project for me was to learn how Nuxt Content works.
+You can check out the project live @ https://popsup.nl
