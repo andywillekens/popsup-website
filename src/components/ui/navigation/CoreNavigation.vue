@@ -43,7 +43,7 @@
   })
 </script>
 <template>
-  <nav
+  <section
     :class="
       type === 'main' ? 'items-center flex-row' : 'items-start flex-col gap-8 lg:gap-0 lg:flex-row '
     "
@@ -62,11 +62,11 @@
     </div>
     <div v-if="type === 'main'" class="hidden md:flex">
       <!-- Website navigation -->
-      <div class="mainNav flex items-center md:gap-6 lg:gap-12 pr-4 lg:pr-6">
+      <nav class="mainNav flex items-center md:gap-6 lg:gap-12 pr-4 lg:pr-6">
         <template v-for="(item, itemIndex) in mainMenuItems">
           <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
         </template>
-      </div>
+      </nav>
       <!-- Application Navigation -->
       <AppNavigation />
     </div>
@@ -98,5 +98,5 @@
         </div>
       </template>
     </div>
-  </nav>
+  </section>
 </template>
