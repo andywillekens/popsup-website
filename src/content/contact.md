@@ -22,7 +22,7 @@ Bekijk onze [veelgestelde vragen](/faq) om te zien of jouw vraag al beantwoord i
 
 #### Direct contact?
 
-Mocht je nog steeds hulp nodig hebben, neem dan contact op via het telefoonnummer [06-15652039](tel:0615652039) of stuur een e-mail naar [info@popsup.nl](mailto:info@popsup.nl).
+Mocht je nog steeds hulp nodig hebben, neem dan contact op via het telefoonnummer [06-15652039](tel:0615652039) of stuur een e-mail naar [andywillekens@gmail.com](mailto:andywillekens@gmail.com).
 
 #### Bedrijfs gegevens
 
@@ -31,6 +31,3 @@ Adres: **Goudplevier 26**\
 Postcode: **5165 KE**\
 Plaats: **Waspik**\
 Provincie: **Noord-brabant**
-
-BTW: **NL047247976B01**\
-KVK: **87050366**
