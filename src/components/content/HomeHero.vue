@@ -44,13 +44,13 @@
       </h1>
       <!-- CTA -->
       <CoreButton
-        to="https://app.popsup.nl/create-account"
+        to="https://app.popsup.andywillekens.nl/create-account"
         label="Start jouw gratis proefperiode"
         tag="nuxt-link"
         theme="cta" />
     </section>
     <section class="w-full md:w-[680px] flex-shrink-0 md:-translate-x-5 lg:translate-x-0">
-      <ImageViewer url="https://app.popsup.nl" :images="imageArr" />
+      <ImageViewer url="https://app.popsup.andywillekens.nl" :images="imageArr" />
     </section>
   </section>
 </template>
