@@ -59,4 +59,4 @@ questionGroup:
 
 ### Vraag niet gevonden?
 
-Mocht je nog steeds hulp nodig hebben, neem dan contact op via het telefoonnummer [06-15652039](tel:0615652039) of stuur een e-mail naar [info@popsup.nl](mailto:info@popsup.nl).
+Mocht je nog steeds hulp nodig hebben, neem dan contact op via het telefoonnummer [06-15652039](tel:0615652039) of stuur een e-mail naar [andywillekens@gmail.com](mailto:andywillekens@gmail.com).
