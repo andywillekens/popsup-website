@@ -66,7 +66,7 @@
         <!--CTA -->
         <div class="flex flex-col gap-1">
           <CoreButton
-            to="https://app.popsup.andywillekens.nl/create-account"
+            to="https://popsup.andywillekens.nl"
             label="Start direct!"
             tag="nuxt-link"
             :theme="plan.featured ? 'default' : 'cta-alt'" />
@@ -118,7 +118,8 @@
     <span class="text-gray-800 text-base">* Support via: e-mail, telefoon & videocall</span>
     <p>
       Meer pop-up campagnes nodig of wil je weten wat er mogelijk is?<br />
-      Stuur dan een mail naar <a href="mailto:andywillekens@gmail.com">andywillekens@gmail.com</a> of bel
+      Stuur dan een mail naar
+      <a href="mailto:andywillekens@gmail.com">andywillekens@gmail.com</a> of bel
       <a href="tel:0615652039">06-15652039</a>
     </p>
   </section>

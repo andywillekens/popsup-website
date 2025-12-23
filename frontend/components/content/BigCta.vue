@@ -7,7 +7,7 @@
     </p>
     <div class="flex flex-col items-center gap-1">
       <CoreButton
-        to="https://app.popsup.andywillekens.nl/create-account"
+        to="https://popsup.andywillekens.nl"
         label="Start gratis proefperiode"
         tag="nuxt-link"
         theme="cta-xl" />
