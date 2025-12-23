@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;500;700&family=Poppins:wght@400;500;700&display=swap');
 @import 'tailwindcss';
 
-/* Theme Configuration */
 @theme {
-  /* Colors */
   --color-gray-50: #f6f6f7;
   --color-gray-100: #eef0f1;
   --color-gray-200: #dfe4e6;
@@ -93,11 +91,8 @@
   --color-mango-950: #3f1509;
   --color-mango: #e1801f;
 
-  /* Font families */
   --font-body: 'Mukta', system-ui, sans-serif;
   --font-head: 'Poppins', system-ui, sans-serif;
-
-  /* Custom font size utilities */
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
@@ -111,20 +106,17 @@
   --text-5xl: 3.5rem;
   --text-7xl: 4.375rem;
 
-  /* Grid template columns */
   --grid-template-columns-content: [full-width-start] minmax(1rem, 1fr) [breakout-start]
     minmax(0, 100px) [content-large-start] minmax(0px, 250px) [content-start]
     min(100% - ((1rem) * 2), 780px) [content-end] minmax(0px, 250px) [content-large-end]
     minmax(0, 100px) [breakout-end] minmax(1rem, 1fr) [full-width-end];
 
-  /* Animations */
   --animate-heart-beat: heart-beat 1.2s ease-in-out infinite;
   --animate-word-slider: word-slider 8s cubic-bezier(0.16, 1, 0.3, 1) infinite;
   --animate-infinite-scrolling-bar: infinite-scrolling-bar 50s linear infinite;
   --animate-slide-in-from-left: slide-in-from-left 0.6s 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-/* Keyframes */
 @keyframes heart-beat {
   0% {
     transform: scale(1);
@@ -372,13 +364,11 @@
   }
 }
 
-/* Utility Classes */
 @layer utilities {
   .grid-cols-content {
     @apply grid;
   }
 
-  /* Scoped to Nuxt root element for proper specificity */
   body #__nuxt > *,
   body #__nuxt > div:not(.breakout) > *,
   .grid-cols-content > *,
@@ -400,7 +390,6 @@
     grid-column: content-large;
   }
 
-  /* Placed after content-large so it can override when both classes are present */
   body #__nuxt > .breakout,
   body #__nuxt > div:not(.breakout) > .breakout,
   .grid-cols-content > .breakout,
@@ -408,10 +397,7 @@
     grid-column: breakout;
   }
 
-  /* Responsive variants - Tailwind v4 generates responsive classes automatically */
-  /* We need to target the generated class names - check browser dev tools for exact names */
   @media (min-width: 1536px) {
-    /* Multiple selector patterns to catch different possible class name formats */
     body #__nuxt > [class*='2xl:breakout'],
     body #__nuxt > div:not(.breakout) > [class*='2xl:breakout'],
     .grid-cols-content > [class*='2xl:breakout'],
