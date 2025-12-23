@@ -40,7 +40,7 @@
       </p>
       <!-- H1 -->
       <h1 class="text-base leading-relaxed sm:leading-normal sm:text-md font-normal text-gray-900">
-        <ContentSlot :use="$slots.default" unwrap="p" />
+        <slot mdc-unwrap="p" />
       </h1>
       <!-- CTA -->
       <CoreButton

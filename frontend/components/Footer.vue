@@ -24,7 +24,10 @@
         <p class="text-base text-gray-600">&copy; {{ new Date().getFullYear() }} - PopsUp</p>
         <p class="text-base text-gray-600">
           PopsUp is met
-          <Icon name="ph:heart-duotone" class="text-purple-500 animate-heart-beat" size="24" />
+          <Icon
+            name="ph:heart-duotone"
+            class="text-purple-500 animate-heart-beat align-bottom"
+            size="24" />
           ontwikkeld in Nederland.
         </p>
       </section>

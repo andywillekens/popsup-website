@@ -37,7 +37,7 @@
     <!-- Menu -->
     <div class="mobileNav flex flex-col gap-8">
       <template v-for="(item, itemIndex) in items">
-        <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
+        <NuxtLink :to="item.path">{{ item.title }}</NuxtLink>
       </template>
       <AppNavigation />
     </div>

@@ -19,10 +19,6 @@
     <template v-for="group in questionGroup">
       <h2 class="mt-8">{{ group.title }}</h2>
       <template v-for="question in group.questions">
-        <SchemaOrgQuestion in-language="nl-NL">
-          <template #name>{{ question.q }}</template>
-          <template #acceptedAnswer>{{ question.a }}</template>
-        </SchemaOrgQuestion>
         <ProseFaqItem>
           <template #q> {{ question.q }} </template>
           <template #a> {{ question.a }} </template>

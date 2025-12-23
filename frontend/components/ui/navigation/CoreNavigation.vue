@@ -5,7 +5,7 @@
 
   interface MenuItem {
     title: string
-    _path: string
+    path: string
     navigation?: [
       {
         title: string
@@ -22,15 +22,18 @@
 
   const props = defineProps<Props>()
   const showMobileMenu = ref(false)
-  const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
+  const { data: navigation } = await useAsyncData('navigation', () =>
+    queryCollectionNavigation('content')
+  )
 
-  const mainMenuItems = navigation.value
+  const mainMenuItems = (navigation.value as MenuItem[] | undefined)
     ?.filter((item) => item.location.includes('main'))
     .sort((a, b) => (a.order || 0) - (b.order || 0))
 
-  const footerMenuItems: any = (navigation.value || [])?.filter((item) =>
-    item.location.includes('footer')
-  )
+  const footerMenuItems: MenuItem[] =
+    ((navigation.value as MenuItem[] | undefined) || [])?.filter((item) =>
+      item.location.includes('footer')
+    ) || []
 
   const categories: Record<string, MenuItem[]> = {}
 
@@ -64,7 +67,7 @@
       <!-- Website navigation -->
       <nav class="mainNav flex items-center md:gap-6 lg:gap-12 pr-4 lg:pr-6">
         <template v-for="(item, itemIndex) in mainMenuItems">
-          <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
+          <NuxtLink :to="item.path">{{ item.title }}</NuxtLink>
         </template>
       </nav>
       <!-- Application Navigation -->
@@ -93,7 +96,7 @@
         <div class="flex flex-col gap-2 flex-shrink-0">
           <p class="uppercase text-gray-300 text-base">{{ catIndex }}</p>
           <template v-for="item in category">
-            <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
+            <NuxtLink :to="item.path">{{ item.title }}</NuxtLink>
           </template>
         </div>
       </template>
