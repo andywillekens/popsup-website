@@ -26,10 +26,6 @@ export default defineNuxtConfig({
     indexable: true,
     trailingSlash: false
   },
-  ogImage: {
-    enabled: true,
-    fonts: ['Poppins:400', 'Poppins:500', 'Poppins:700']
-  },
   app: {
     head: {
       templateParams: {
