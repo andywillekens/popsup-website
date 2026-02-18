@@ -14,13 +14,10 @@ sitemap:
 # Privacy
 
 \
-PopsUp, gevestigd aan de Goudplevier 26,
-5165 KE te Waspik, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
+PopsUp is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.
 
 ##### Contactgegevens
 
-Goudplevier 26,\
-5165 KE, Waspik\
 [andywillekens@gmail.com](mailto:andywillekens@gmail.com)\
 [06-15652039](tel:0615652039)
 
